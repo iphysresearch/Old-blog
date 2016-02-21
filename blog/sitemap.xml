@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/blog/websitelog/index.html</loc>
+    
+    <lastmod>2016-02-21T16:10:29.826Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/blog/guestbook/index.html</loc>
     
     <lastmod>2016-02-21T16:07:50.919Z</lastmod>
@@ -103,13 +110,6 @@
     <loc>http://yoursite.com/blog/2015/02/22/Wolf-Totem/</loc>
     
     <lastmod>2016-02-20T10:06:54.714Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/blog/websitelog/index.html</loc>
-    
-    <lastmod>2016-02-20T09:43:32.381Z</lastmod>
     
   </url>
   
