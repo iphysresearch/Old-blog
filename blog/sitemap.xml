@@ -2,16 +2,72 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/blog/websitelog/index.html</loc>
+    <loc>http://yoursite.com/blog/2016/02/07/challenge-DAY3/</loc>
     
-    <lastmod>2016-02-21T16:10:29.826Z</lastmod>
+    <lastmod>2016-02-22T15:53:35.431Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/blog/2016/02/22/The-Lantern-Festival/</loc>
+    
+    <lastmod>2016-02-22T15:53:06.599Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/blog/2016/02/08/challenge-DAY4/</loc>
+    
+    <lastmod>2016-02-22T15:49:55.765Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/blog/2016/02/10/challenge-DAY6/</loc>
+    
+    <lastmod>2016-02-22T15:46:45.345Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/blog/2016/02/11/challenge-DAY7/</loc>
+    
+    <lastmod>2016-02-22T15:44:41.118Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://yoursite.com/blog/guestbook/index.html</loc>
     
-    <lastmod>2016-02-21T16:07:50.919Z</lastmod>
+    <lastmod>2016-02-22T15:31:59.575Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/blog/About/index.html</loc>
+    
+    <lastmod>2016-02-22T15:02:00.557Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/blog/2016/02/22/Clean-up-the-historical-legacy-II/</loc>
+    
+    <lastmod>2016-02-22T14:14:46.769Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/blog/2016/02/21/Clean-up-the-historical-legacy_I/</loc>
+    
+    <lastmod>2016-02-22T02:13:50.066Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/blog/websitelog/index.html</loc>
+    
+    <lastmod>2016-02-21T16:10:29.826Z</lastmod>
     
   </url>
   
@@ -54,13 +110,6 @@
     <loc>http://yoursite.com/blog/2016/02/21/A-quiet-life-in-harmony/</loc>
     
     <lastmod>2016-02-21T15:33:25.213Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/blog/2016/02/21/Clean-up-the-historical-legacy_I/</loc>
-    
-    <lastmod>2016-02-21T15:33:00.893Z</lastmod>
     
   </url>
   
@@ -114,20 +163,6 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/blog/About/index.html</loc>
-    
-    <lastmod>2016-02-20T06:55:32.818Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/blog/2016/02/10/challenge-DAY6/</loc>
-    
-    <lastmod>2016-02-19T12:06:59.870Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/blog/2016/02/05/challenge-DAY1/</loc>
     
     <lastmod>2016-02-19T11:59:07.102Z</lastmod>
@@ -142,30 +177,9 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/blog/2016/02/11/challenge-DAY7/</loc>
-    
-    <lastmod>2016-02-19T10:03:03.255Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/blog/2016/02/09/challenge-DAY5/</loc>
     
     <lastmod>2016-02-19T10:00:17.477Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/blog/2016/02/07/challenge-DAY3/</loc>
-    
-    <lastmod>2016-02-19T09:58:28.583Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/blog/2016/02/08/challenge-DAY4/</loc>
-    
-    <lastmod>2016-02-19T09:58:10.991Z</lastmod>
     
   </url>
   
