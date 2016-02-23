@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/blog/websitelog/index.html</loc>
+    
+    <lastmod>2016-02-22T16:15:56.417Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/blog/2016/02/07/challenge-DAY3/</loc>
     
     <lastmod>2016-02-22T15:53:35.431Z</lastmod>
@@ -61,13 +68,6 @@
     <loc>http://yoursite.com/blog/2016/02/21/Clean-up-the-historical-legacy_I/</loc>
     
     <lastmod>2016-02-22T02:13:50.066Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/blog/websitelog/index.html</loc>
-    
-    <lastmod>2016-02-21T16:10:29.826Z</lastmod>
     
   </url>
   
