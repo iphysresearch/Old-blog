@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>iPHYSresearch</title>
+  <subtitle>Knowledge increases by sharing but not by saving.</subtitle>
+  <link href="/blog/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/blog/"/>
+  <updated>2016-02-25T15:43:42.877Z</updated>
+  <id>http://yoursite.com/blog/</id>
+  
+  <author>
+    <name>Herb</name>
+    <email>herbwang1989@gmail.com</email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kouji Nakamura&#39;s Non-Linear Gauge Invariant Perturbation Theory</title>
+    <link href="http://yoursite.com/blog/2016/02/25/Nakamura-s-Theory/"/>
+    <id>http://yoursite.com/blog/2016/02/25/Nakamura-s-Theory/</id>
+    <published>2016-02-25T14:54:06.000Z</published>
+    <updated>2016-02-25T15:43:42.877Z</updated>
+    
+    <content type="html">&lt;blockquote&gt;
+&lt;p&gt;Nakamura, Kouji. 2005. “&lt;strong&gt;Second-Order Gauge Invariant Perturbation Theory: — Perturbative Curvatures in the Two-Parameter Case —.&lt;/strong&gt;” Progress of Theoretical Physics 113 (3): 481–511.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;First, if linear-order gauge invariant perturbation theory is well established, its extension to higher orders and multi-parameter perturbations is straightforward. &lt;/li&gt;
+&lt;li&gt;Second, the perturbative Weyl curvature at each order preserves the property of the tracelessness of the Weyl curvature. &lt;/li&gt;
+&lt;li&gt;Third, the perturbative Einstein curvature of each order satisfies the perturbative Bianchi identities at each order. &lt;/li&gt;
+&lt;li&gt;Fourth, the perturbative Einstein equations at each order necessarily take in gauge invariant forms. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further, we note that in our framework, we specify nothing about the background spacetime nor about the physical meaning of the parameters for the perturbations. Our framework is &lt;strong&gt;based only on general covariance&lt;/strong&gt;. &lt;/p&gt;
+&lt;p&gt;For this reason, this framework is applicable to any theory in which general covariance is imposed, and thus it has very many applications. &lt;/p&gt;
+&lt;p&gt;The following are candidates of the physical situations to which the second order perturbation theory should be applied:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;the radiation reaction problem in gravitational wave emission [^1];&lt;/li&gt;
+&lt;li&gt;stationary axisymmetric ideal MHD flow around a black hole or a star[^2];&lt;/li&gt;
+&lt;li&gt;the correspondence between observables in experiment and gauge invariant variables;&lt;/li&gt;
+&lt;li&gt;dynamics of gravitating membranes (for example, topological defects[^3], brane world[^4], and so on)&lt;/li&gt;
+&lt;li&gt;perturbations of a compact star with rotation and pulsation[^5];&lt;/li&gt;
+&lt;li&gt;Post-Minkowski expansion alternative to post-Newtonian expansion[^6];&lt;/li&gt;
+&lt;li&gt;higher-order cosmological perturbations and primordial non-Gaussianity[^7].&lt;/li&gt;
+&lt;/ol&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;[^1]:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Y. Mino, M. Sasaki and T. Tanaka, Phys. Rev. D 55 (1997), 3457.&lt;/p&gt;
+&lt;p&gt;T. C. Quinn and R. M. Wald, Phys. Rev. D 56 (1997), 3381.&lt;/p&gt;
+&lt;p&gt;T. C. Quinn and R. M. Wald, Phys. Rev. D 60 (1999), 064009.&lt;/p&gt;
+&lt;p&gt;E. Poisson, Living Rev. Relativity 7 (2004), 6 and references therein.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;[^2]:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;S. Nitta, M. Takahashi and A. Tomimatsu, Phys. Rev. D 44 (1991), 2295.&lt;/p&gt;
+&lt;p&gt;K. Ioka and M. Sasaki, Phys. Rev. D 67 (2003), 124026.&lt;/p&gt;
+&lt;p&gt;K. Ioka and M. Sasaki, Astrophys. J. 600 (2004), 296.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;[^3]: &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;K. Nakamura, A. Ishibashi and H. Ishihara, Phys. Rev. D 62 (2000), 101502(R).&lt;/p&gt;
+&lt;p&gt;K. Nakamura and H. Ishihara, Phys. Rev. D 63 (2001), 127501.&lt;/p&gt;
+&lt;p&gt;K. Nakamura, Class. Quantum Grav. 19 (2002), 783; Phys. Rev. D 66 (2002), 084005.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;[^4]:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;L. Randall and R. Sundrum, Phys. Rev. Lett. 83 (1999), 4690.&lt;/p&gt;
+&lt;p&gt;L. Randall and R. Sundrum, Phys. Rev. Lett. 83 (1999), 3370.&lt;/p&gt;
+&lt;p&gt;J. Garriga and T. Tanaka, Phys. Rev. Lett. 84 (2000), 2778.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;[^5]: &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Y. Kojima, Prog. Theor. Phys. Suppl. No. 128 (1997), 251.&lt;/p&gt;
+&lt;p&gt;A. Passamonti, M. Bruni, L. Gualtieri and C. F. Sopuerta, gr-qc/0407108.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;[^6]:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;S. Detweiler and L. H. Brown, Jr, Phys. Rev. D 56 (1997), 826.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;[^7]: &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;K. A. Malik and D. Wands, Class. Quantum Grav. 21 (2004), L65.&lt;/p&gt;
+&lt;p&gt;N. Bartolo, S. Matarrese and A. Riotto, astro-ph/0407505.&lt;/p&gt;
+&lt;p&gt;N. Bartolo, E. Komatsu, S. Matarrese and A. Riotto, astro-ph/0406398.&lt;/p&gt;
+&lt;p&gt;N. Bartolo, S. Matarrese and A. Riotto, Phys. Rev. D 69 (2004), 043503.&lt;/p&gt;
+&lt;p&gt;N. Bartolo, S. Matarrese and A. Riotto, J. High Energy Phys. 04 (2004), 006.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;[^8]:&lt;br&gt;[^9]:&lt;br&gt;[^10]:&lt;br&gt;[^11]:&lt;br&gt;[^12]:&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;Nakamura, Kouji. 2005. “&lt;strong&gt;Second-Order Gauge Invariant Perturbation Theory: — Perturbative Curvatures in the Two-Parameter Case —.&lt;/strong&gt;” Progress of Theoretical Physics 113 (3): 481–511.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;First, if linear-order gauge invariant perturbation theory is well established, its extension to higher orders and multi-parameter perturbations is straightforward. &lt;/li&gt;
+&lt;li&gt;Second, the perturbative Weyl curvature at each order preserves the property of the tracelessness of the Weyl curvature. &lt;/li&gt;
+&lt;li&gt;Third, the perturbative Einstein curvature of each order satisfies the perturbative Bianchi identities at each order. &lt;/li&gt;
+&lt;li&gt;Fourth, the perturbative Einstein equations at each order necessarily take in gauge invariant forms. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further, we note that in our framework, we specify nothing about the background spacetime nor about the physical meaning of the parameters for the perturbations. Our framework is &lt;strong&gt;based only on general covariance&lt;/strong&gt;. &lt;/p&gt;
+&lt;p&gt;For this reason, this framework is applicable to any theory in which general covariance is imposed, and thus it has very many applications. &lt;/p&gt;
+&lt;p&gt;The following are candidates of the physical situations to which the second order perturbation theory should be applied:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;the radiation reaction problem in gravitational wave emission [^1];&lt;/li&gt;
+&lt;li&gt;stationary axisymmetric ideal MHD flow around a black hole or a star[^2];&lt;/li&gt;
+&lt;li&gt;the correspondence between observables in experiment and gauge invariant variables;&lt;/li&gt;
+&lt;li&gt;dynamics of gravitating membranes (for example, topological defects[^3], brane world[^4], and so on)&lt;/li&gt;
+&lt;li&gt;perturbations of a compact star with rotation and pulsation[^5];&lt;/li&gt;
+&lt;li&gt;Post-Minkowski expansion alternative to post-Newtonian expansion[^6];&lt;/li&gt;
+&lt;li&gt;higher-order cosmological perturbations and primordial non-Gaussianity[^7].&lt;/li&gt;
+&lt;/ol&gt;
+    
+    </summary>
+    
+      <category term="Research notes" scheme="http://yoursite.com/blog/categories/Research-notes/"/>
+    
+      <category term="Extraction" scheme="http://yoursite.com/blog/categories/Research-notes/Extraction/"/>
+    
+    
+      <category term="待续中 | To be continued" scheme="http://yoursite.com/blog/tags/%E5%BE%85%E7%BB%AD%E4%B8%AD-To-be-continued/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>创造力是一种独在的状态</title>
+    <link href="http://yoursite.com/blog/2016/02/24/Creativity-is-an-independent-state/"/>
+    <id>http://yoursite.com/blog/2016/02/24/Creativity-is-an-independent-state/</id>
+    <published>2016-02-24T15:10:46.000Z</published>
+    <updated>2016-02-24T15:23:11.273Z</updated>
+    
+    <content type="html">&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;Cite: 《富有创造力的心灵》—— 克里希那穆提&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;　　在我看来，一个人越是去观察，就会发现有创造力的人正在越来越少。我所说的创造力。不是指绘画、写诗或者搞些发明。&lt;br&gt;…&lt;br&gt;　　创造力是一种独在的状态。当心灵没有做到完全的独在，是不可能具有创造力的，只有当心灵能够摆脱一切影响、一切干扰，能够实现彻底的独在——没有任何依赖，没有任何陪伴，没有任何限定性的影响和评判——唯有在这种独在的状态中，才能迎来创造力。然而，一个平庸的心灵、一个培养起某种实践的心灵，一个懂得如何、怎样、方法的心灵，是无法认识独在的状态的。&lt;br&gt;　　世界上正在发展越来越多的方法、技巧——关于怎样通过宣传、强迫、模仿、榜样、偶像崇拜、英雄崇拜去影响人们的方法、技巧。有无数的书籍都是关于如何去做某个事情，如何有效率地思考，如何修建房屋，如何制造机器。于是我们渐渐丧失了原创力，丧失了凭借自己的力量去思考、去创造的能力。&lt;br&gt;…&lt;br&gt;　　…　一个训练技术、方法的人，永远无法成为有创造力的个体。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;P.S:　暂时摘录到此，待续吧。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;Cite: 《富有创造力的心灵》—— 克里希那穆提&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;　　在我看来，一个人越是去观察，就会发现有创造力的人正在越来越少。我所说的创造
+    
+    </summary>
+    
+      <category term="Life, Insights and Random Musings" scheme="http://yoursite.com/blog/categories/Life-Insights-and-Random-Musings/"/>
+    
+      <category term="Reading Notes" scheme="http://yoursite.com/blog/categories/Life-Insights-and-Random-Musings/Reading-Notes/"/>
+    
+    
+      <category term="待续中 | To be continued" scheme="http://yoursite.com/blog/tags/%E5%BE%85%E7%BB%AD%E4%B8%AD-To-be-continued/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>清理历史遗留  III</title>
+    <link href="http://yoursite.com/blog/2016/02/23/Clean-up-the-historical-legacy-III/"/>
+    <id>http://yoursite.com/blog/2016/02/23/Clean-up-the-historical-legacy-III/</id>
+    <published>2016-02-23T02:35:52.000Z</published>
+    <updated>2016-02-23T11:49:10.341Z</updated>
+    
+    <content type="html">&lt;h1 id=&quot;1&quot;&gt;&lt;a href=&quot;#1&quot; class=&quot;headerlink&quot; title=&quot;1&quot;&gt;&lt;/a&gt;1&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;Kehagias, Alex, and Antonio Riotto. 2016. “&lt;strong&gt;BMS in Cosmology.&lt;/strong&gt;” arXiv [hep-Th]. &lt;a href=&quot;http://arxiv.org/abs/1602.02653&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://arxiv.org/abs/1602.02653&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Comments： 这个文章值得读读， 是谈Cosmology中的&lt;strong&gt;对称性&lt;/strong&gt;的， 准确地说， 就是BMS transformations in a cosmological setting。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;该paper位于： Paperpile - Fascinating&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;2&quot;&gt;&lt;a href=&quot;#2&quot; class=&quot;headerlink&quot; title=&quot;2&quot;&gt;&lt;/a&gt;2&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;Bergshoeff, Eric, Dan Freedman, Renata Kallosh, and Antoine Van Proeyen. 2016. “&lt;strong&gt;Construction of the de Sitter Supergravity.&lt;/strong&gt;” In. &lt;a href=&quot;http://inspirehep.net/record/1419685/files/arXiv:1602.01678.pdf&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://inspirehep.net/record/1419685/files/arXiv:1602.01678.pdf&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Comments：有详尽的关于&lt;strong&gt;supergravity&lt;/strong&gt;的计算。 具体说来， review aspects of supersymmetry with de Sitter backgrounds, the treatment of auxiliary fields, and other ingredients in the construction.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;该paper位于： Paperpile - Unclassified&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;3&quot;&gt;&lt;a href=&quot;#3&quot; class=&quot;headerlink&quot; title=&quot;3&quot;&gt;&lt;/a&gt;3&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;Pansart, Jean Pierre. 2016b. “&lt;strong&gt;A Clifford Algebra Gauge Invariant Lagrangian for Gravity. Part1: Higher Dimensions and Reduction to Four-Dimensional Space-Time.&lt;/strong&gt;” Commissariat à l’Energie Atomique, CEN Saclay, Irfu/SPP. &lt;a href=&quot;https://hal.archives-ouvertes.fr/hal-01261519/document&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://hal.archives-ouvertes.fr/hal-01261519/document&lt;/a&gt;.&lt;br&gt;Pansart, Jean Pierre. 2016. “&lt;strong&gt;A Clifford Algebra Gauge Invariant Lagrangian for Gravity. Part 2 : Compatibility with General Relativity Tests.&lt;/strong&gt;” arXiv [gr-Qc]. &lt;a href=&quot;http://arxiv.org/abs/1602.02131&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://arxiv.org/abs/1602.02131&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Comments：听名字那可谓是相当的高大上的啊～ 也不知道究竟是靠谱不， 文章很数学化， Mark一下， 下学期上QFT的时候可以读读看。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;该paper位于： Paperpile - Leisure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;4&quot;&gt;&lt;a href=&quot;#4&quot; class=&quot;headerlink&quot; title=&quot;4&quot;&gt;&lt;/a&gt;4&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;Uzan, Jean-Philippe. 2015. “&lt;strong&gt;The Big-Bang Theory: Construction, Evolution and Status.&lt;/strong&gt;” Bourbaphy.fr. &lt;a href=&quot;http://www.bourbaphy.fr/Uzan.pdf&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.bourbaphy.fr/Uzan.pdf&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Comments： 简单来说， 就是review了大爆炸宇宙模型的来龙去脉， 前世因果吧。读读这个相信会对自己学习宇宙学有锦上添花的效果。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;该paper位于： Paperpile - Leisure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;5&quot;&gt;&lt;a href=&quot;#5&quot; class=&quot;headerlink&quot; title=&quot;5&quot;&gt;&lt;/a&gt;5&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;Onchong’a, Okeng’o Geoffrey. 2015. “&lt;strong&gt;Modelling the Growth of Large-Scale Structure with Interacting Fluids.&lt;/strong&gt;” University of the Western Cape. &lt;a href=&quot;http://etd.uwc.ac.za/xmlui/handle/11394/4761?show=full&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://etd.uwc.ac.za/xmlui/handle/11394/4761?show=full&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Comments： 一篇最新的博士论文， 里面有比较详尽的关于Cosmological perturbations的内容。&lt;strong&gt;值得打印&lt;/strong&gt;出来。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;该paper位于： Paperpile - PHD Thesis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;6&quot;&gt;&lt;a href=&quot;#6&quot; class=&quot;headerlink&quot; title=&quot;6&quot;&gt;&lt;/a&gt;6&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;Maartens, Roy. 2015. “&lt;strong&gt;Relativistic Corrections to the Power Spectrum.&lt;/strong&gt;” University of the Western Cape. &lt;a href=&quot;http://hdl.handle.net/11394/4787&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://hdl.handle.net/11394/4787&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Comments： 和上面来自同一个学校的一篇最新的博士论文， &lt;strong&gt;值得打印&lt;/strong&gt;出来。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;该paper位于： Paperpile - PHD Thesis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;7&quot;&gt;&lt;a href=&quot;#7&quot; class=&quot;headerlink&quot; title=&quot;7&quot;&gt;&lt;/a&gt;7&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;Tram, Thomas, Christian Fidler, Robert Crittenden, Kazuya Koyama, Guido W. Pettinari, and David Wands. 2016. “&lt;strong&gt;The Intrinsic Matter Bispectrum in $Łambda$CDM.&lt;/strong&gt;” arXiv [astro-ph.CO]. &lt;a href=&quot;http://arxiv.org/abs/1602.05933&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://arxiv.org/abs/1602.05933&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Comments： 关于微扰理论应用的， &lt;strong&gt;值得打印&lt;/strong&gt;出来，好好读读，作者里由Wands， 引用里由Bruni和Malik。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;该paper位于： Paperpile - Higher-Order P.T. - Reading…&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;1&quot;&gt;&lt;a href=&quot;#1&quot; class=&quot;headerlink&quot; title=&quot;1&quot;&gt;&lt;/a&gt;1&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;Kehagias, Alex, and Antonio Riotto. 2016. “&lt;strong&gt;BMS in Cosmology.&lt;/strong&gt;” arXiv [hep-Th]. &lt;a href=&quot;http://arxiv.org/abs/1602.02653&quot;&gt;http://arxiv.org/abs/1602.02653&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Comments： 这个文章值得读读， 是谈Cosmology中的&lt;strong&gt;对称性&lt;/strong&gt;的， 准确地说， 就是BMS transformations in a cosmological setting。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;该paper位于： Paperpile - Fascinating&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;2&quot;&gt;&lt;a href=&quot;#2&quot; class=&quot;headerlink&quot; title=&quot;2&quot;&gt;&lt;/a&gt;2&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;Bergshoeff, Eric, Dan Freedman, Renata Kallosh, and Antoine Van Proeyen. 2016. “&lt;strong&gt;Construction of the de Sitter Supergravity.&lt;/strong&gt;” In. &lt;a href=&quot;http://inspirehep.net/record/1419685/files/arXiv:1602.01678.pdf&quot;&gt;http://inspirehep.net/record/1419685/files/arXiv:1602.01678.pdf&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Comments：有详尽的关于&lt;strong&gt;supergravity&lt;/strong&gt;的计算。 具体说来， review aspects of supersymmetry with de Sitter backgrounds, the treatment of auxiliary fields, and other ingredients in the construction.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;该paper位于： Paperpile - Unclassified
+    
+    </summary>
+    
+      <category term="Research notes" scheme="http://yoursite.com/blog/categories/Research-notes/"/>
+    
+      <category term="Random thoughts" scheme="http://yoursite.com/blog/categories/Research-notes/Random-thoughts/"/>
+    
+    
+      <category term="连载的 | Serialized" scheme="http://yoursite.com/blog/tags/%E8%BF%9E%E8%BD%BD%E7%9A%84-Serialized/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>元宵佳节</title>
+    <link href="http://yoursite.com/blog/2016/02/22/The-Lantern-Festival/"/>
+    <id>http://yoursite.com/blog/2016/02/22/The-Lantern-Festival/</id>
+    <published>2016-02-22T14:30:01.000Z</published>
+    <updated>2016-02-23T05:10:35.701Z</updated>
+    
+    <content type="html">&lt;p&gt;一到中午， 办公室的师兄师弟们就开始筹划着在这个元宵佳节去哪里逛荡呢。 于是乎中午饭一完， 我们一行人就步行去了南锣鼓巷， 逛了半天， 又跑到后海走了好长， 多了不说了。 一帮后生其实也没啥特别的节日心情， 就是图个新鲜了。 还喊叫的要去看灯会， 看灯啊…. 哪里有灯啊….你看我我看你的，其实我们是去给别人做&lt;em&gt;电灯泡&lt;/em&gt;去啦～ 哈哈..  多的不说了， 贴几个图以示氛围就好了。p.s: 自己分别花了100+300大洋买了走私进来的一瓶俄国香槟和一瓶俄国鹿血酒， 晚上火锅的时候就我们把香槟都喝光了， 味道还是地道的， 不错。&lt;/p&gt;
+&lt;p&gt;(南锣鼓巷)（我印象中的老北京）&lt;br&gt;（美美的什刹海！）（拍过《老炮儿》的冰场……）&lt;br&gt;&lt;div class=&quot;group-picture&quot;&gt;&lt;div class=&quot;group-picture-container&quot;&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;div class=&quot;group-picture-column&quot; style=&quot;width: 50%;&quot;&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/9ji_2016-02-22_15-07-49.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-column&quot; style=&quot;width: 50%;&quot;&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/9ji_2016-02-22_15-17-39.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;div class=&quot;group-picture-column&quot; style=&quot;width: 50%;&quot;&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/9ji_2016-02-22_16-02-29.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-column&quot; style=&quot;width: 50%;&quot;&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/9ji_2016-02-22_16-40-44.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;再后来， 我们就火锅嗨起来， 303七个人， 不贵的哦～ 吃的同时， 我们还探讨好半天关于这个老式铜火锅的加热和排气的原理……&lt;br&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/9ji_2016-02-22_17-48-53.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;晚上就去蓝色港湾看灯去了， 不得不说， 结果我路上就感冒了， 开始流鼻涕发热头疼， 哎～ 看来还是穿的有点太少了。 贴一两张图以示我来过了….. p.s: 忽略照片中的人群就完美了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/9ji_2016-02-22_20-04-22.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/9ji_2016-02-22_19-50-15.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/9ji_2016-02-22_19-53-09.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一到中午， 办公室的师兄师弟们就开始筹划着在这个元宵佳节去哪里逛荡呢。 于是乎中午饭一完， 我们一行人就步行去了南锣鼓巷， 逛了半天， 又跑到后海走了好长， 多了不说了。 一帮后生其实也没啥特别的节日心情， 就是图个新鲜了。 还喊叫的要去看灯会， 看灯啊…. 哪里有灯啊….你看我我看你的，其实我们是去给别人做&lt;em&gt;电灯泡&lt;/em&gt;去啦～ 哈哈..  多的不说了， 贴几个图以示氛围就好了。p.s: 自己分别花了100+300大洋买了走私进来的一瓶俄国香槟和一瓶俄国鹿血酒， 晚上火锅的时候就我们把香槟都喝光了， 味道还是地道的， 不错。&lt;/p&gt;
+&lt;p&gt;(南锣鼓巷)（我印象中的老北京）&lt;br&gt;（美美的什刹海！）（拍过《老炮儿》的冰场……）&lt;br&gt;&lt;div class=&quot;group-picture&quot;&gt;&lt;div class=&quot;group-picture-container&quot;&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;div class=&quot;group-picture-column&quot;  style=&quot;width: 50%;&quot;&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/9ji_2016-02-22_15-07-49.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-column&quot;  style=&quot;width: 50%;&quot;&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/9ji_2016-02-22_15-17-39.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;div class=&quot;group-picture-column&quot;  style=&quot;width: 50%;&quot;&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/9ji_2016-02-22_16-02-29.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-column&quot;  style=&quot;width: 50%;&quot;&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/9ji_2016-02-22_16-40-44.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Life, Insights and Random Musings" scheme="http://yoursite.com/blog/categories/Life-Insights-and-Random-Musings/"/>
+    
+      <category term="Life" scheme="http://yoursite.com/blog/categories/Life-Insights-and-Random-Musings/Life/"/>
+    
+    
+      <category term="多图的 | With pictures" scheme="http://yoursite.com/blog/tags/%E5%A4%9A%E5%9B%BE%E7%9A%84-With-pictures/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>清理历史遗留  II</title>
+    <link href="http://yoursite.com/blog/2016/02/22/Clean-up-the-historical-legacy-II/"/>
+    <id>http://yoursite.com/blog/2016/02/22/Clean-up-the-historical-legacy-II/</id>
+    <published>2016-02-22T02:08:43.000Z</published>
+    <updated>2016-02-22T14:14:46.769Z</updated>
+    
+    <content type="html">&lt;hr&gt;
+&lt;h1 id=&quot;1&quot;&gt;&lt;a href=&quot;#1&quot; class=&quot;headerlink&quot; title=&quot;1&quot;&gt;&lt;/a&gt;1&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;Kohli, Ikjyot Singh. 2016. “&lt;strong&gt;On Past Singularities in $k=0$ FLRW Cosmologies.&lt;/strong&gt;” arXiv [gr-Qc]. &lt;a href=&quot;http://arxiv.org/abs/1602.02456&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://arxiv.org/abs/1602.02456&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Comments： 一个很简洁的文章， 但由于我才疏学浅， 还没了解奇点定理是什么东西。文章开头就review了传统的奇点定理并给出了原始经典文献， 还是值得一看的，i.e., The conventional singularity theorems of cosmology assume that the matter content in the cosmological model obeys the strong energy condition along with a nonpositive cosmological constant.。作者在文章里给出的重要结论就是： A $k = 0$ FLRW model with a positive cosmological constant and barotropic matter obeying only the weak energy condition is past asymptotic to a big bang singularity.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;该paper位于： Paperpile - Unclassified&lt;/li&gt;
+&lt;/ul&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h1 id=&quot;2&quot;&gt;&lt;a href=&quot;#2&quot; class=&quot;headerlink&quot; title=&quot;2&quot;&gt;&lt;/a&gt;2&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;Battye, R. A., B. Bolliet, and J. A. Pearson. 2016. “&lt;strong&gt;f(R) as a Dark Energy Fluid.&lt;/strong&gt;” Physics Review D93 (4): 044026.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Comments： 用一句话来概括文章的核心点就是其在摘要中所说的： We study the equations for the evolution of cosmological perturbations in &lt;strong&gt;f (R)&lt;/strong&gt; and conclude that this &lt;strong&gt;modified gravity&lt;/strong&gt; model can be expressed as &lt;strong&gt;a dark energy fluid at background and linearised perturbation order&lt;/strong&gt;. 这里F(R)理论就不多说了， modified gravity是我还不怎么清楚是什么鬼的， 总让我有联想的就是， 后面所说的上述理论下可以表述为一个背景+线性项的&lt;strong&gt;暗能量流&lt;/strong&gt;， 这听上去还是颇有点意思的， 似乎可以从general的微扰理论里可以琢磨下其中的深刻含义和理解。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;该paper位于： Paperpile - Fascinating - F(R) Theory&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;3&quot;&gt;&lt;a href=&quot;#3&quot; class=&quot;headerlink&quot; title=&quot;3&quot;&gt;&lt;/a&gt;3&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;Hajian, Kamal. 2016. “&lt;strong&gt;Conserved Charges and First Law of Thermodynamics for Kerr-de Sitter Black Holes.&lt;/strong&gt;” arXiv [gr-Qc]. &lt;a href=&quot;http://arxiv.org/abs/1602.05575&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://arxiv.org/abs/1602.05575&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Comments： 一篇技术性文章， 简单来说， 从中可以学到如何计算黑洞的 &lt;strong&gt;mass&lt;/strong&gt; 和 &lt;strong&gt;angular momentum&lt;/strong&gt;， 及&lt;strong&gt;热力学第一定律&lt;/strong&gt;。 同时， 文章重点是介绍了一个名为“&lt;strong&gt;solution phase space method&lt;/strong&gt;”的方法并将其运用在 Kerr-dS black hole 和 Kerr-Newman-dS black hole， 号称这是一个 general formulation for calculating conserved charges for (black hole) solutions to generally covariant gravitational theories。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;该paper位于： Paperpile - Kerr-Newman B.H.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;4&quot;&gt;&lt;a href=&quot;#4&quot; class=&quot;headerlink&quot; title=&quot;4&quot;&gt;&lt;/a&gt;4&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;Van Proeyen, Antoine. 1999. “&lt;strong&gt;Tools for Supersymmetry.&lt;/strong&gt;” Ann. U. Craiova Phys. 9 (I): 1–48.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Comments： 一篇99年引用率很高的入门型paper， 正如摘要中所说是&lt;strong&gt;elementary introduction&lt;/strong&gt; to basic tools of &lt;strong&gt;supersymmetry&lt;/strong&gt;: the spacetime symmetries, gauge theory and its application in gravity, spinors and superalgebras. Special attention is devoted to conformal and anti-de Sitter algebras.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;该paper位于： Paperpile - Lecture Notes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;5&quot;&gt;&lt;a href=&quot;#5&quot; class=&quot;headerlink&quot; title=&quot;5&quot;&gt;&lt;/a&gt;5&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;Bekenstein, Jacob D. 1973. “&lt;strong&gt;Black Holes and Entropy.&lt;/strong&gt;” Physics Review D7: 2333–46.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Comments： 无比经典重要的文献， 引用率已经达3000+。 Bekenstein-Hawking 熵的出处就来自于这里。即： Bekenstein and Hawking showed that a black hole has a behavior similar to a common thermodynamic system.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;该paper位于： Paperpile - Kerr-Newman B.H.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;h1 id=&quot;1&quot;&gt;&lt;a href=&quot;#1&quot; class=&quot;headerlink&quot; title=&quot;1&quot;&gt;&lt;/a&gt;1&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;Kohli, Ikjyot Singh. 2016. “&lt;strong&gt;On Past Singularities in $k=0$ FLRW Cosmologies.&lt;/strong&gt;” arXiv [gr-Qc]. &lt;a href=&quot;http://arxiv.org/abs/1602.02456&quot;&gt;http://arxiv.org/abs/1602.02456&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Comments： 一个很简洁的文章， 但由于我才疏学浅， 还没了解奇点定理是什么东西。文章开头就review了传统的奇点定理并给出了原始经典文献， 还是值得一看的，i.e., The conventional singularity theorems of cosmology assume that the matter content in the cosmological model obeys the strong energy condition along with a nonpositive cosmological constant.。作者在文章里给出的重要结论就是： A $k = 0$ FLRW model with a positive cosmological constant and barotropic matter obeying only the weak energy condition is past asymptotic to a big bang singularity.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;该paper位于： Paperpile - Unclassified&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Research notes" scheme="http://yoursite.com/blog/categories/Research-notes/"/>
+    
+      <category term="Random thoughts" scheme="http://yoursite.com/blog/categories/Research-notes/Random-thoughts/"/>
+    
+    
+      <category term="连载的 | Serialized" scheme="http://yoursite.com/blog/tags/%E8%BF%9E%E8%BD%BD%E7%9A%84-Serialized/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>清理历史遗留  I</title>
+    <link href="http://yoursite.com/blog/2016/02/21/Clean-up-the-historical-legacy_I/"/>
+    <id>http://yoursite.com/blog/2016/02/21/Clean-up-the-historical-legacy_I/</id>
+    <published>2016-02-21T15:08:43.000Z</published>
+    <updated>2016-02-22T02:13:50.066Z</updated>
+    
+    <content type="html">&lt;p&gt;一个假期过去后， 积攒了好多篇近期发在网上的paper还没来得及翻阅， 所以这里准备标记出来：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;感兴趣但是并不了解的领域方向； &lt;/li&gt;
+&lt;li&gt;值得课外动手算一算的； &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;等相关的文献资料， 同时写下其中每篇paper看过摘要、引言和结论后的感想。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;1&quot;&gt;&lt;a href=&quot;#1&quot; class=&quot;headerlink&quot; title=&quot;1&quot;&gt;&lt;/a&gt;1&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;Avery, Steven G., and Burkhard U. W. Schwab. 2016. “&lt;strong&gt;Noether’s Second Theorem and Ward Identities for Gauge Symmetries.&lt;/strong&gt;” JHEP 02: 031.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Comments： 这个文章值得读读， 里面有提到Noether的第一和第二定理， 以及用其第二定理用路径积分方法生成(generate) Ward identities。 这个还是值得了解一下的， 尤其是下个学期有吕老师的QFT课以及清华的规范场论课， 相比这对于课程的理解也是很有帮助的。 在最后， 文中还将他们介绍的机制(mechanism)运用到了各种规范场论中， 如Maxwell theory, Yang–Mills theory, p-form field theory, and Einstein–Hilbert gravity。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;该paper位于： Paperpile - Fascinating&lt;/li&gt;
+&lt;/ul&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h1 id=&quot;2&quot;&gt;&lt;a href=&quot;#2&quot; class=&quot;headerlink&quot; title=&quot;2&quot;&gt;&lt;/a&gt;2&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;Arnowitt, Richard L., Stanley Deser, and Charles W. Misner. 1959. “&lt;strong&gt;Dynamical Structure and Definition of Energy in General Relativity.&lt;/strong&gt;” Physics Review 116: 1322–30.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Comments： 这是一篇历史经典重要原始文献。 传说中的ADM就出自于此， 由此可见其重要性了。 好好读读吧， 没看过会被鄙视的……&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;该paper位于： Paperpile - Fascinating&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;3&quot;&gt;&lt;a href=&quot;#3&quot; class=&quot;headerlink&quot; title=&quot;3&quot;&gt;&lt;/a&gt;3&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;Yagi, Kent, and Leo C. Stein. 2016. “&lt;strong&gt;Black Hole Based Tests of General Relativity.&lt;/strong&gt;” Classical and Quantum Gravity 33 (5): 054001.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Comment： 这个文章有两点值得我留意下。 其一就是， 他们 review 了 model independent 方式检验引力理论的方法， 其中是通过一个黑洞系统中的电磁场波或引力波来实现的；其二就是， 文中给出了关于四个经典GR理论的推广理论方案的基础介绍， 用来作为相应引力理论入门的话， 还是挺值得读读的。四个引力理论分别是：(i) scalar–tensor theories, (ii) massive gravity theories, (iii) quadratic gravity, and (iv) theories with large extra dimensions.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;该paper位于： Paperpile - Fascinating&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;4&quot;&gt;&lt;a href=&quot;#4&quot; class=&quot;headerlink&quot; title=&quot;4&quot;&gt;&lt;/a&gt;4&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;Bars, Itzhak, and Albin James. 2016. “&lt;strong&gt;Physical Interpretation of Antigravity.&lt;/strong&gt;” Physics Review D93 (4): 044029.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Comment： 这个文章我就弄明白一个问题就好了， 那就是其中摘要说的： Geodesic incompleteness is a problem in both general relativity and string theory. 据说这个学期高老师的引力理论专题课程里有讲， 梁老的微广书中册有介绍。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;该paper位于： Paperpile - Unclassified&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;5&quot;&gt;&lt;a href=&quot;#5&quot; class=&quot;headerlink&quot; title=&quot;5&quot;&gt;&lt;/a&gt;5&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;Mikhailichenko, G. G., and A. N. Borodin. 2016. “&lt;strong&gt;The Mathematical Basics and the Results of the Theory of Physical Structures.&lt;/strong&gt;” arXiv [math-Ph]. arXiv. &lt;a href=&quot;http://arxiv.org/abs/1602.02795&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://arxiv.org/abs/1602.02795&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Comment： 根本看不懂啊！ 里面有一个非常重要的概念： the Theory of Physical Structures。 这名字真是无比高大上， 数学真是深奥啊…. 不愧是俄国毛子搞出来的东西， 数学物理太强大了。 还是给个定义吧：A physical structure is a geometry of one or two sets whose metric function assigns a number to every pair of points.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;该paper位于： Paperpile - Lecture Notes&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一个假期过去后， 积攒了好多篇近期发在网上的paper还没来得及翻阅， 所以这里准备标记出来：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;感兴趣但是并不了解的领域方向； &lt;/li&gt;
+&lt;li&gt;值得课外动手算一算的； &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;等相关的文献资料， 同时写下其中每篇paper看过摘要、引言和结论后的感想。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;1&quot;&gt;&lt;a href=&quot;#1&quot; class=&quot;headerlink&quot; title=&quot;1&quot;&gt;&lt;/a&gt;1&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;Avery, Steven G., and Burkhard U. W. Schwab. 2016. “&lt;strong&gt;Noether’s Second Theorem and Ward Identities for Gauge Symmetries.&lt;/strong&gt;” JHEP 02: 031.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Comments： 这个文章值得读读， 里面有提到Noether的第一和第二定理， 以及用其第二定理用路径积分方法生成(generate) Ward identities。 这个还是值得了解一下的， 尤其是下个学期有吕老师的QFT课以及清华的规范场论课， 相比这对于课程的理解也是很有帮助的。 在最后， 文中还将他们介绍的机制(mechanism)运用到了各种规范场论中， 如Maxwell theory, Yang–Mills theory, p-form field theory, and Einstein–Hilbert gravity。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;该paper位于： Paperpile - Fascinating&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Research notes" scheme="http://yoursite.com/blog/categories/Research-notes/"/>
+    
+      <category term="Random thoughts" scheme="http://yoursite.com/blog/categories/Research-notes/Random-thoughts/"/>
+    
+    
+      <category term="连载的 | Serialized" scheme="http://yoursite.com/blog/tags/%E8%BF%9E%E8%BD%BD%E7%9A%84-Serialized/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>宁静中的和谐生活</title>
+    <link href="http://yoursite.com/blog/2016/02/21/A-quiet-life-in-harmony/"/>
+    <id>http://yoursite.com/blog/2016/02/21/A-quiet-life-in-harmony/</id>
+    <published>2016-02-21T15:00:08.000Z</published>
+    <updated>2016-02-21T15:33:25.213Z</updated>
+    
+    <content type="html">&lt;p&gt;今天是一个很重要的一天， 那就是我刚刚把自己的魅族Metal手机里的‘&lt;strong&gt;微信&lt;/strong&gt;’、‘&lt;strong&gt;微博&lt;/strong&gt;’和‘&lt;strong&gt;LOFTER&lt;/strong&gt;’都彻底卸载掉了。 当然， 为了能每周末登陆一次微信的时候， 我还能收到聊天留言和相关的聊天记录， 我就在一个旧的三星手机里安装了‘微信’， 并且， 还把所有的聊天记录都迁移了过去。&lt;/p&gt;
+&lt;p&gt;此刻， 我感觉到的是无比的&lt;strong&gt;宁静&lt;/strong&gt;和&lt;strong&gt;和谐&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;眼前只剩下旁边堆得搞搞的专业书籍和文献资料， 还有放在办公桌上正对着我的“实验室”—— 电脑。 当眼前只有如此的时候， 就真的心如止水， 开始思考埋头想自己该干该做的事情了。 正所谓眼不见心不烦嘛～&lt;/p&gt;
+&lt;p&gt;P.S： 今天尽量把所有的琐事都处理了。 报名了北京语言大学的雅思YPE-1616班， 就差改天去付款了。 还报了学校不太远的柏润健身游泳会所(学院派店)二年， 可以停两次卡， 免转卡费， 甚至还要了24节私教课， 花了1699+5760大洋…. 我也算是豁出去了。 不过这个健身房是真心好， 由于是去年12月份才彻底装修完毕开业的， 设备都非常新， 会员还不是特别多， 学生也不是特别的多。重要的是， 健身房还有游泳池和拳击散打房， 这可谓真的是超值了。 当然，  由于自己精力极其有限， 所以计划未来每周顶多去1-2次吧， 也给教练（和尚）说好了我的主要健身目标不是要多么健美的身材， 这只能排第二， 排在首要地位的是健康， 如果健身的效果可以帮助我放松缓解平时科研的压力， 学习中更清醒， 还能提高记忆力等， 那就是&lt;em&gt;完美了&lt;/em&gt;！&lt;/p&gt;
+&lt;p&gt;P.S： 博客的留言板功能要赶快抓紧弄出来了， 没了微信， 除了知道我号码的发短信联系我外， 就只能靠这个博客的留言板来联系我了。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天是一个很重要的一天， 那就是我刚刚把自己的魅族Metal手机里的‘&lt;strong&gt;微信&lt;/strong&gt;’、‘&lt;strong&gt;微博&lt;/strong&gt;’和‘&lt;strong&gt;LOFTER&lt;/strong&gt;’都彻底卸载掉了。 当然， 为了能每周末登陆一次微信的时候， 我还能收
+    
+    </summary>
+    
+      <category term="Life, Insights and Random Musings" scheme="http://yoursite.com/blog/categories/Life-Insights-and-Random-Musings/"/>
+    
+      <category term="Life" scheme="http://yoursite.com/blog/categories/Life-Insights-and-Random-Musings/Life/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>求压力山大帝！</title>
+    <link href="http://yoursite.com/blog/2016/02/20/My-pressure/"/>
+    <id>http://yoursite.com/blog/2016/02/20/My-pressure/</id>
+    <published>2016-02-20T12:08:43.000Z</published>
+    <updated>2016-02-21T15:35:10.656Z</updated>
+    
+    <content type="html">&lt;p&gt;其实， 今天开始才算是真正的彻底属于自己思考的生活。&lt;br&gt;关于科研， 不得不说已经落后了。 虽说这个暑假吴老板交代的课题内容， 我算了一些东西， 也把结果在过年前就邮件发回了老板。 但是， 课题还是没有特别大的进展的， 毕竟是课题比较难吧， 要是真的有了什么突破， 那都肯定能发非常优秀的文章的了。 不过我也还是没放弃， 计划这两天把自己前几天刚刚想的几个点子好好算算， 试验一下。 但是， 我上半年自己的课题方向可谓已经是有2个月没有碰过了， 真是罪过…… 按照通常的情况， 我是必须要在上半年就至少有成果， 并且至少要发一篇文章的呢。 然而， 现在还在文献调研模仿的阶段， 并没有真正自己算出来的东西。 哎， 我都对自己感到有些可悲。 话说， 同一个学校毕业的另一个准博士在今年1月份就已经有一篇和他自己的老板同著的paper发到ArXiv上了。 哎～ 显然， 我深切地体会到了在乌龟赛跑的故事里， 兔子刚跑到终点处时心里的感受了。 &lt;/p&gt;
+&lt;p&gt;除了百废待兴， 下半学期也可谓是任务艰巨。 有四门我特别想听也是很值得听的专业课程， 相比上半年多了一倍。 此外， 我还计划着去报名北京语言大学的雅思业余班， 每周要用掉6个小时的课程， 持续一个月左右。 由此可见， 从我的计划本上列出的内容也能看出来， 现在的处境已经是危机重重， 四面楚歌了。 更更何况， 我还惦记着如何通过学习瑜伽和健身， 来让自己平时世俗的心平静下来……&lt;/p&gt;
+&lt;p&gt;所以， 在此情此景下。 该给自己施压的时候， 就一定要毫不含糊的压自己。 没有哪个牛人是生来就很牛， 都是做了很牛的事， 才成为牛人的。&lt;/p&gt;
+&lt;p&gt;下面贴几个朋友推荐的网络文章以自省：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MjM5MDAyMzQyMQ==&amp;amp;mid=401938297&amp;amp;idx=1&amp;amp;sn=df8fab7d83cf41d4fea45ec7bd6c2a5b&amp;amp;scene=1&amp;amp;srcid=0220yINb4XBzicKMH89gtGjY&amp;amp;pass_ticket=aDtOjyavVDQgd%2BNvQLQx17jDeNUmbWemyZEfVOwrUzg74f5ybNsn%2BsS49DnZIYf%2B#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;真想读博士的人，这5件事绝对不会做&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://card.weibo.com/article/h5/s#cid=23041863ecb87b0102vtau&amp;amp;from=&amp;amp;wm=&amp;amp;ip=10.13.113.186&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;哈佛商学院私人笔记：如何一天拥有48小时？&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;PS: 关于上面的第一篇文章对我来说可谓是句句为金啊。 尤其是第一个， &lt;strong&gt;真想读博士的人除了科学不会有其他兴趣, 尤其是写博客！&lt;/strong&gt; 由此可见一斑， 所以这个每日的博客写作， 一定要每天的科研文献感悟和相关的课题思考都要一并贴上来。 至于后面的一条也非常相当重要：&lt;strong&gt;真想读博士的人不会与家人和朋友保持联系&lt;/strong&gt;。 我一直觉得这是一句真理， 然而， 自己却从来没有真正敢提出来。 从大学开始， 我就和中学时代的所有同学朋友没有了当初的密切来往， 甚至是一点联系都没有， 在当时的我看来， 是觉得能聊到一起的话题越来越少， 同时也自诩相信距离产生美吧， 总觉得每一次长久后的相逢会是很美的一次感受。而如今， 保持联系的早已不限于此， 包括所有的亲人， 甚至是父母， 偶尔父母会微信我一下， 要试探我是否还活着…… 哎～ 多的不说了， 虽然在特别想回家的冲动下回家后， 是特别的想离开家， 但是， 依然希望父母们身体能健康， 等我学有所成吧！&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;其实， 今天开始才算是真正的彻底属于自己思考的生活。&lt;br&gt;关于科研， 不得不说已经落后了。 虽说这个暑假吴老板交代的课题内容， 我算了一些东西， 也把结果在过年前就邮件发回了老板。 但是， 课题还是没有特别大的进展的， 毕竟是课题比较难吧， 要是真的有了什么突破， 那都肯
+    
+    </summary>
+    
+      <category term="Life, Insights and Random Musings" scheme="http://yoursite.com/blog/categories/Life-Insights-and-Random-Musings/"/>
+    
+      <category term="Insights" scheme="http://yoursite.com/blog/categories/Life-Insights-and-Random-Musings/Insights/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>一年之计在于春 | 一日之计在于晨</title>
+    <link href="http://yoursite.com/blog/2016/02/19/determination/"/>
+    <id>http://yoursite.com/blog/2016/02/19/determination/</id>
+    <published>2016-02-19T12:20:15.000Z</published>
+    <updated>2016-02-21T15:35:48.316Z</updated>
+    
+    <content type="html">&lt;blockquote&gt;
+&lt;p&gt;An hour in the morning is worth two in the evening.一年之计在于春,一日之计在于晨(谚语)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;明天正式开始发奋努力了。 前一段时间， 不得不说自己也变得很浮躁了， 因为因为各种各样的事情， 各种各样的人吧。所以…&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;与其屏蔽别人，不如把自己屏蔽了。从此开始把手机微信，手机微博等都统统删掉，每周定期登陆一次吧。要联系我就需要恢复古老的方式，请短信吧！(PhoneNumber可见微信签名) 在如今快餐式的网络社交方式，把那么多的朋友同学亲人的信息像垃圾广告似的在手机里层出不穷，让人眼花缭乱… 哎 这信息疯狂似的爆炸，正是社会浮躁的温床。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;另外要说的是。 原本呢， 我是想倡议组织个每周1000字互相监督的微信群， 但是我要是自己不用微信了的话， 就没法在群里主持和其他小伙伴们交流， 那么就更无法和群里的其他朋友建立信任， 所以这个计划暂且搁浅了吧。 但是， 我在简书公众号里看到了这样的一篇文章：&lt;a href=&quot;http://www.jianshu.com/p/fde43500702a&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;strong&gt;十个理由你应该每日写作（最后一个你绝对想不到！）&lt;/strong&gt;&lt;/a&gt;。 在其文末， 发现了作者弘丹创建了“笔耕不辍”公众号（微信号：wewriter），并且发起“&lt;strong&gt;百日写作&lt;/strong&gt;”活动。倡议的初衷是：&lt;em&gt;让更多人爱上写作。当你开始写作，你会享受创作带来的乐趣，也会爱上写作&lt;/em&gt;。 所以， 我就决定从今天开始参加这个活动了， 写作的内容都一律发布在这个博客上， 内容可能是所见所闻， 思考感悟， 也可能是我的科研笔记与整理。 总之， 每天不限字数， 不要求每日内容完整， 可以每天都有断断续续的写一个文章日志。到最后， 我相信这样的方式会对自己大有裨益的。&lt;/p&gt;
+&lt;p&gt;PS: 由于每天都会坚持写作的话， 那么这个博客的日志可能会很丰富， 密度很大， 所以一定要设计个合理高效的分类标签系统是非常有必要的。 目前暂定， 所以的“分类”都是名词为特征， 所有的“标签”都是形容词为特征。 至于其各自的一级分类/标签， 和二级分类/标签等如何设定， 还是有待考虑…&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;An hour in the morning is worth two in the evening.一年之计在于春,一日之计在于晨(谚语)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;明天正式开始发奋努力了。 前一段时间， 不得不说自己也变得很浮躁
+    
+    </summary>
+    
+      <category term="Life, Insights and Random Musings" scheme="http://yoursite.com/blog/categories/Life-Insights-and-Random-Musings/"/>
+    
+      <category term="Insights" scheme="http://yoursite.com/blog/categories/Life-Insights-and-Random-Musings/Insights/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>逛湖北省博物馆感+引力波？</title>
+    <link href="http://yoursite.com/blog/2016/02/12/challenge-DAY8/"/>
+    <id>http://yoursite.com/blog/2016/02/12/challenge-DAY8/</id>
+    <published>2016-02-12T15:13:02.000Z</published>
+    <updated>2016-02-19T10:04:12.555Z</updated>
+    
+    <content type="html">&lt;h4 id=&quot;Subtitle-参与’死磕8天-每天五百字’挑战-DAY-8&quot;&gt;&lt;a href=&quot;#Subtitle-参与’死磕8天-每天五百字’挑战-DAY-8&quot; class=&quot;headerlink&quot; title=&quot;Subtitle: 参与’死磕8天,每天五百字’挑战-DAY 8&quot;&gt;&lt;/a&gt;Subtitle: 参与’死磕8天,每天五百字’挑战-DAY 8&lt;/h4&gt;&lt;p&gt;今天的目标就一个, 那就是逛湖北省博物馆. 那么, 镇馆之宝究竟为何呢? 那就是传说中的越王勾践剑!&lt;br&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/78c6e289jw1f0woxqoxsjj20sg1kwaqj.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;我当时盯着这个国宝级文物盯了好久, 总觉得这个东西的背后有些奇怪的东西没说清楚. 越王卧薪尝胆的故事可谓已经众所周知了, 那么这把春秋晚期的青铜器距今约公元前500年左右, 因剑身上被镀上了含铬的金属而千年不锈。经无损科学检测，其主要合金成分为铜、锡、铅、铁、硫等。花纹处含硫高，因硫化铜可防锈 &lt;a href=&quot;http://baike.baidu.com/link?url=RoUNMbr-V16z3ZXlGaepDNITEHFN9qVUuSP_JhZjbcVKXbxqK7d2VsZUejRosrP_tLFnRf26V6WnIMpazoxO7_&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;(参考来源)&lt;/a&gt;. 这把剑就是这位春秋霸主越王的王者之剑, 剑上刻有鸟虫书铭文“钺王鸠浅”和“自乍用鐱”。即：越王勾践，自作用剑。那么我的问题来了: 既然这把剑确认是越王的剑, 也确认这个剑是因含铬金属而导致千年不锈, 那么为什么就只发现了这么一把剑呢? 在当时肯定是不知道使用含铬的金属的材料的, 这个出土的位置也很普通, 所以也不可能提前预知它是可以防锈的, 要是知道的话, 早就大量生产普及, 写入史书了, 所以剑里含有稀有金属这件事就只能是铸剑过程的巧合了. 那么越王的佩剑就那么碰巧是拿到了这样特殊的剑吗? 所以, 这就有些奇怪了… 目前我只能这么推测: 那就是给越王铸造的剑多了去了, 都一模一样的, 只不过其中又一把巧合的和别的有点不一样, 所以就如此流传至今还被发现了.&lt;/p&gt;
+&lt;p&gt;另外要说道一两句的就是我看不惯的事情了. 显然, 基本上国内所有的博物馆都有专门宣传抗战专题的展区, 我们也不例外的逛了一番. 有两个房间是专门宣扬党内籍贯是湖北省的军官将领, 一个挨着一个的个人贴板贴满四周的墙, 图文结合的介绍各种辉煌的履历和精彩, 但是就是真实的提及如何去世等基本信息, 有些人的出生到逝世日期, 明显英年早逝在文化大革命期间, 就是没给说说究竟发生了什么. 还有一个板子是专门仔细列表了所有在当时一段年限内的所有湖北籍贯的军官将领名字和军衔, 其中显眼位于最高军衔的就是林彪的名字, 但是整个专题场馆介绍里就偏偏没有林彪的个人介绍…. ~ 看来, 党内真正的实现”实事求是”的目标还有很长一段路要走…..&lt;/p&gt;
+&lt;p&gt;另外不得不提一句的是, 最近朋友圈彻底被引力波刷屏了. 本来, 我还想着这个挑战最后一天, 我可以用我的理解来科普下引力波呢, 但是由于时间有限, 给出几个比较专业和准确的文章好了.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzAwNTA5NTYxOA==&amp;amp;mid=402298628&amp;amp;idx=1&amp;amp;sn=0273e8d5e3bc3a60467a677baf76a299&amp;amp;scene=2&amp;amp;srcid=0212caAA2B8VCqzCjAZ7e7KO&amp;amp;from=timeline&amp;amp;isappinstalled=0&amp;amp;key=710a5d99946419d9b774a6e294648f2730376e970d67140b70cba5c7dd962e5e61d90e67f917426be46d6c4c3f31b364&amp;amp;ascene=2&amp;amp;uin=MjM0NjI2NDg2Mg%3D%3D&amp;amp;devicetype=android-22&amp;amp;version=26030d32&amp;amp;nettype=WIFI&amp;amp;pass_ticket=aARkphs66PBd0v15J%2BbE2JZ2F3V9RSlQ2yDG%2FhJghPqD50%2Bou51p%2BY0qS%2BySI%2BFn&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;重大新闻：人类首次直接探测到了引力波(中科院物理所公众号)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://120.52.72.43/authors.library.caltech.edu/c3pr90ntcsf0/4680/1/FLAprd98a.pdf&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;发表在PRL上的文章原文pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;Subtitle-参与’死磕8天-每天五百字’挑战-DAY-8&quot;&gt;&lt;a href=&quot;#Subtitle-参与’死磕8天-每天五百字’挑战-DAY-8&quot; class=&quot;headerlink&quot; title=&quot;Subtitle: 参与’死磕8天,每天五百字’挑战-DAY 8&quot;&gt;&lt;/a&gt;Subtitle: 参与’死磕8天,每天五百字’挑战-DAY 8&lt;/h4&gt;&lt;p&gt;今天的目标就一个, 那就是逛湖北省博物馆. 那么, 镇馆之宝究竟为何呢? 那就是传说中的越王勾践剑!&lt;br&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/78c6e289jw1f0woxqoxsjj20sg1kwaqj.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;我当时盯着这个国宝级文物盯了好久, 总觉得这个东西的背后有些奇怪的东西没说清楚. 越王卧薪尝胆的故事可谓已经众所周知了, 那么这把春秋晚期的青铜器距今约公元前500年左右, 因剑身上被镀上了含铬的金属而千年不锈。经无损科学检测，其主要合金成分为铜、锡、铅、铁、硫等。花纹处含硫高，因硫化铜可防锈 &lt;a href=&quot;http://baike.baidu.com/link?url=RoUNMbr-V16z3ZXlGaepDNITEHFN9qVUuSP_JhZjbcVKXbxqK7d2VsZUejRosrP_tLFnRf26V6WnIMpazoxO7_&quot;&gt;(参考来源)&lt;/a&gt;. 这把剑就是这位春秋霸主越王的王者之剑, 剑上刻有鸟虫书铭文“钺王鸠浅”和“自乍用鐱”。即：越王勾践，自作用剑。那么我的问题来了: 既然这把剑确认是越王的剑, 也确认这个剑是因含铬金属而导致千年不锈, 那么为什么就只发现了这么一把剑呢? 在当时肯定是不知道使用含铬的金属的材料的, 这个出土的位置也很普通, 所以也不可能提前预知它是可以防锈的, 要是知道的话, 早就大量生产普及, 写入史书了, 所以剑里含有稀有金属这件事就只能是铸剑过程的巧合了. 那么越王的佩剑就那么碰巧是拿到了这样特殊的剑吗? 所以, 这就有些奇怪了… 目前我只能这么推测: 那就是给越王铸造的剑多了去了, 都一模一样的, 只不过其中又一把巧合的和别的有点不一样, 所以就如此流传至今还被发现了.&lt;/p&gt;
+&lt;p&gt;另外要说道一两句的就是我看不惯的事情了. 显然, 基本上国内所有的博物馆都有专门宣传抗战专题的展区, 我们也不例外的逛了一番. 有两个房间是专门宣扬党内籍贯是湖北省的军官将领, 一个挨着一个的个人贴板贴满四周的墙, 图文结合的介绍各种辉煌的履历和精彩, 但是就是真实的提及如何去世等基本信息, 有些人的出生到逝世日期, 明显英年早逝在文化大革命期间, 就是没给说说究竟发生了什么. 还有一个板子是专门仔细列表了所有在当时一段年限内的所有湖北籍贯的军官将领名字和军衔, 其中显眼位于最高军衔的就是林彪的名字, 但是整个专题场馆介绍里就偏偏没有林彪的个人介绍…. ~ 看来, 党内真正的实现”实事求是”的目标还有很长一段路要走…..&lt;/p&gt;
+&lt;p&gt;另外不得不提一句的是, 最近朋友圈彻底被引力波刷屏了. 本来, 我还想着这个挑战最后一天, 我可以用我的理解来科普下引力波呢, 但是由于时间有限, 给出几个比较专业和准确的文章好了.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s?__biz=MzAwNTA5NTYxOA==&amp;amp;mid=402298628&amp;amp;idx=1&amp;amp;sn=0273e8d5e3bc3a60467a677baf76a299&amp;amp;scene=2&amp;amp;srcid=0212caAA2B8VCqzCjAZ7e7KO&amp;amp;from=timeline&amp;amp;isappinstalled=0&amp;amp;key=710a5d99946419d9b774a6e294648f2730376e970d67140b70cba5c7dd962e5e61d90e67f917426be46d6c4c3f31b364&amp;amp;ascene=2&amp;amp;uin=MjM0NjI2NDg2Mg%3D%3D&amp;amp;devicetype=android-22&amp;amp;version=26030d32&amp;amp;nettype=WIFI&amp;amp;pass_ticket=aARkphs66PBd0v15J%2BbE2JZ2F3V9RSlQ2yDG%2FhJghPqD50%2Bou51p%2BY0qS%2BySI%2BFn&quot;&gt;重大新闻：人类首次直接探测到了引力波(中科院物理所公众号)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://120.52.72.43/authors.library.caltech.edu/c3pr90ntcsf0/4680/1/FLAprd98a.pdf&quot;&gt;发表在PRL上的文章原文pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Life, Insights and Random Musings" scheme="http://yoursite.com/blog/categories/Life-Insights-and-Random-Musings/"/>
+    
+      <category term="Travel" scheme="http://yoursite.com/blog/categories/Life-Insights-and-Random-Musings/Travel/"/>
+    
+    
+      <category term="多图的 | With pictures" scheme="http://yoursite.com/blog/tags/%E5%A4%9A%E5%9B%BE%E7%9A%84-With-pictures/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>游武汉+谈表白经历感</title>
+    <link href="http://yoursite.com/blog/2016/02/11/challenge-DAY7/"/>
+    <id>http://yoursite.com/blog/2016/02/11/challenge-DAY7/</id>
+    <published>2016-02-11T14:28:30.000Z</published>
+    <updated>2016-02-22T15:44:41.118Z</updated>
+    
+    <content type="html">&lt;h4 id=&quot;Subtitle-参与’死磕8天-每天五百字’挑战-DAY-7&quot;&gt;&lt;a href=&quot;#Subtitle-参与’死磕8天-每天五百字’挑战-DAY-7&quot; class=&quot;headerlink&quot; title=&quot;Subtitle: 参与’死磕8天,每天五百字’挑战-DAY 7&quot;&gt;&lt;/a&gt;Subtitle: 参与’死磕8天,每天五百字’挑战-DAY 7&lt;/h4&gt;&lt;p&gt;今天就是简单的逛武汉. 由于早上起床的太晚, 就没有机会早上吃热干面了, 所以就上午赶到热闹的户部街体会了下, &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/9jt_2016-02-11_14-03-06.jpg?imageView2/1/w/217/h/389/interlace/0/q/100&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/9jt_2016-02-11_14-06-41.jpg?imageView2/1/w/440/h/248/interlace/0/q/100&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;中午在江边的酒店吃武昌鱼, &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/9jt_2016-02-11_12-53-37.jpg?imageView2/1/w/440/h/248/interlace/0/q/100&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;最后下午逛了逛汉江路而已了. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/9jt_2016-02-11_15-43-05.jpg?imageView2/1/w/217/h/389/interlace/0/q/100&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;在最后, 就是给武汉长江大桥留了个影.&lt;br&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/9jt_2016-02-11_13-25-46.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;昨天微信群聊起, 大家的表白经历和旧人或者故人与现今的变化, 就不由得感慨起来. 当时自己还在微信群感慨的提到说: “&lt;strong&gt;最痛苦的事情莫过于看着自己曾经那么喜欢或欣赏的人变得越来越让你不喜欢, 也一并开始随波逐流, 沉浮气躁, 无病呻咛, 成为没有自己的思想的人… 哎…&lt;/strong&gt;“ 我近几个月真的是对此感受颇深. 虽然一见面能感觉到是大一时候的那个你, 大一时候的那个味道. 但是, 总有些与过去所不同的变化, 是不是变得究竟是更好了呢? 这我不知道. 我只知道有一些看上去因和前女友的风格很像, 而让我倍感熟悉与恐慌. 这该如何适从呢? 不知道啊~ 即使我已信誓旦旦的给自己说, 不管她人家过去发生什么, 有怎样的背景, 那么一切的一切我都能接受和理解, 并且可以做到既往不咎, 也可以只看未来. 但是, 我就算是真的能做到, 这个心意也能传达的到, 那又能如何呢? ….&lt;strong&gt;剪不断理还乱&lt;/strong&gt;, 这句话形容的再恰当不过了…. 当然, 现在我端正了自己的心态, 早已稳定了自己的情绪. 其实人家的未来和我有没有关系, 我已并不十分在意, 人家可能也从没把我当回事, 而唯一让我还在思念和惦记的理由就是担心. 我这人恐怕也真的是博爱惯了, 可能也真的是习惯了一种置身度外的一种为别人操心. 我很希望别人能过上好日子, 过上人家自己定义下的幸福生活. 可是, 这份思绪也就是向半导体一样, 也只是单向传送而已. 人家究竟是怎么想的, 似乎没有任何认识的朋友同学是了解和清楚的, 我当然更不清楚, 也很难说还有没有机会清楚…. 想单纯做个倾听者也很难啊!….&lt;/p&gt;
+&lt;p&gt;文末, 贴上今晚吃到的一个很有意思的叉烧蘑菇包:&lt;br&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/blQrUzN0aXZ0Wlc2TnFiMU1oOGZBSmdhZDZxRGYxZDhaSXJxb0dpT3EvY3laNUdmYms3MEFBPT0.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/9jt_2016-02-11_20-08-29.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;Subtitle-参与’死磕8天-每天五百字’挑战-DAY-7&quot;&gt;&lt;a href=&quot;#Subtitle-参与’死磕8天-每天五百字’挑战-DAY-7&quot; class=&quot;headerlink&quot; title=&quot;Subtitle: 参与’死磕8天,每天五百字’挑战-DAY 7&quot;&gt;&lt;/a&gt;Subtitle: 参与’死磕8天,每天五百字’挑战-DAY 7&lt;/h4&gt;&lt;p&gt;今天就是简单的逛武汉. 由于早上起床的太晚, 就没有机会早上吃热干面了, 所以就上午赶到热闹的户部街体会了下, &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/9jt_2016-02-11_14-03-06.jpg?imageView2/1/w/217/h/389/interlace/0/q/100&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/9jt_2016-02-11_14-06-41.jpg?imageView2/1/w/440/h/248/interlace/0/q/100&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;中午在江边的酒店吃武昌鱼, &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/9jt_2016-02-11_12-53-37.jpg?imageView2/1/w/440/h/248/interlace/0/q/100&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;最后下午逛了逛汉江路而已了. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/9jt_2016-02-11_15-43-05.jpg?imageView2/1/w/217/h/389/interlace/0/q/100&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;在最后, 就是给武汉长江大桥留了个影.&lt;br&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/9jt_2016-02-11_13-25-46.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;昨天微信群聊起, 大家的表白经历和旧人或者故人与现今的变化, 就不由得感慨起来. 当时自己还在微信群感慨的提到说: “&lt;strong&gt;最痛苦的事情莫过于看着自己曾经那么喜欢或欣赏的人变得越来越让你不喜欢, 也一并开始随波逐流, 沉浮气躁, 无病呻咛, 成为没有自己的思想的人… 哎…&lt;/strong&gt;“ 我近几个月真的是对此感受颇深. 虽然一见面能感觉到是大一时候的那个你, 大一时候的那个味道. 但是, 总有些与过去所不同的变化, 是不是变得究竟是更好了呢? 这我不知道. 我只知道有一些看上去因和前女友的风格很像, 而让我倍感熟悉与恐慌. 这该如何适从呢? 不知道啊~ 即使我已信誓旦旦的给自己说, 不管她人家过去发生什么, 有怎样的背景, 那么一切的一切我都能接受和理解, 并且可以做到既往不咎, 也可以只看未来. 但是, 我就算是真的能做到, 这个心意也能传达的到, 那又能如何呢? ….&lt;strong&gt;剪不断理还乱&lt;/strong&gt;, 这句话形容的再恰当不过了…. 当然, 现在我端正了自己的心态, 早已稳定了自己的情绪. 其实人家的未来和我有没有关系, 我已并不十分在意, 人家可能也从没把我当回事, 而唯一让我还在思念和惦记的理由就是担心. 我这人恐怕也真的是博爱惯了, 可能也真的是习惯了一种置身度外的一种为别人操心. 我很希望别人能过上好日子, 过上人家自己定义下的幸福生活. 可是, 这份思绪也就是向半导体一样, 也只是单向传送而已. 人家究竟是怎么想的, 似乎没有任何认识的朋友同学是了解和清楚的, 我当然更不清楚, 也很难说还有没有机会清楚…. 想单纯做个倾听者也很难啊!….&lt;/p&gt;
+&lt;p&gt;文末, 贴上今晚吃到的一个很有意思的叉烧蘑菇包:&lt;br&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/blQrUzN0aXZ0Wlc2TnFiMU1oOGZBSmdhZDZxRGYxZDhaSXJxb0dpT3EvY3laNUdmYms3MEFBPT0.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/9jt_2016-02-11_20-08-29.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Life, Insights and Random Musings" scheme="http://yoursite.com/blog/categories/Life-Insights-and-Random-Musings/"/>
+    
+      <category term="Travel" scheme="http://yoursite.com/blog/categories/Life-Insights-and-Random-Musings/Travel/"/>
+    
+    
+      <category term="多图的 | With pictures" scheme="http://yoursite.com/blog/tags/%E5%A4%9A%E5%9B%BE%E7%9A%84-With-pictures/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>宏村+我的中学时代</title>
+    <link href="http://yoursite.com/blog/2016/02/10/challenge-DAY6/"/>
+    <id>http://yoursite.com/blog/2016/02/10/challenge-DAY6/</id>
+    <published>2016-02-10T14:58:13.000Z</published>
+    <updated>2016-02-22T15:46:45.345Z</updated>
+    
+    <content type="html">&lt;h4 id=&quot;Subtitle-参与’死磕8天-每天五百字’挑战-DAY-6&quot;&gt;&lt;a href=&quot;#Subtitle-参与’死磕8天-每天五百字’挑战-DAY-6&quot; class=&quot;headerlink&quot; title=&quot;Subtitle: 参与’死磕8天,每天五百字’挑战-DAY 6&quot;&gt;&lt;/a&gt;Subtitle: 参与’死磕8天,每天五百字’挑战-DAY 6&lt;/h4&gt;&lt;p&gt;今天白天就逛了逛安徽的宏村, 以下就贴图为证好了. 唯一值得遗憾的就是人太多….本来挺原汁原味的村落现在商业化太重…还有点污染…&lt;br&gt;&lt;div class=&quot;group-picture&quot;&gt;&lt;div class=&quot;group-picture-container&quot;&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;div class=&quot;group-picture-column&quot; style=&quot;width: 50%;&quot;&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/img%2Fchallenge-DAY678c6e289jw1f0udom6w19j20vl0hsaes.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-column&quot; style=&quot;width: 50%;&quot;&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/img%2Fchallenge-DAY678c6e289jw1f0udode32oj20vl0hs433.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;div class=&quot;group-picture-column&quot; style=&quot;width: 100%;&quot;&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/img%2Fchallenge-DAY678c6e289jw1f0udof5hfnj20pg0hs41n.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;大概三点多左右的样子, 我们一家人开始启程直奔武汉, 大概晚上22点多才抵达. 此期间在微信上和朋友聊得很嗨, 还互相分享了自己的中学时代, 以下就是我在微信中发的内容了.&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;说起中学时代嘛, 我还有点犹豫是不是应该给你保留点说呢.&lt;/li&gt;
+&lt;li&gt;初中是区里的重点小学摇号上去的, 虽然成绩很一般, 但直到从初二开始, 教数学的班主任老师发现了我在数学方面有很好的天分, 所以就经常在家长会啦什么等场合, 各种表扬啦非常有才啦什么的, 但其实我根本就从来没在数学考试里考过第一, 更没有过满分.&lt;/li&gt;
+&lt;li&gt;之所以老师那么看中我, 我想主要是那个时候我很擅长解决难题吧, 而且总是有不一样的解体方法吧. 总之, 我想说的是初中班主任的鼓励对我是最先起到很大影响的人.&lt;/li&gt;
+&lt;li&gt;到了初三, 我虽然分到了同一届里最好的实验班, 但是我的总分成绩从来都是垫底. 实验班都是从其他各班挑选出来集合城的一个新班. 每次较大的考试都会大排名, 然后会将实验班里不够某基准线的人踢出实验班. 而我就好几次踩着线侥幸过关.&lt;/li&gt;
+&lt;li&gt;那个时候我的英语和语文特别差, 英语从来单词听写都不合格, 要被下学后留下来重写, 语文也从来不好好背东西, 有抵触心理吧, 上课和年级第一的哥们捣乱….&lt;/li&gt;
+&lt;li&gt;不过, 由于我数学很偏科可以抢一些分数, 然后政治等背诵还行, 于是总分还说得过去. 一直保持到中考进了全市三所最好的高中的其中一所.&lt;/li&gt;
+&lt;li&gt;还忘了说, 我从小学三年级开始到初二的样子是一直在坚持周末学画, 素描为主后来接触了店水彩, 当时跟随的是一位很牛的叫尹丽达的老师. 不过考虑到成绩还不是太糟糕, 所以就在那个时候放弃走画画这个路了, 其实当时的这个名师还有点惋惜的, 她说要是一直坚持到高考的话, 说由很大机会可以上央美呢.&lt;/li&gt;
+&lt;li&gt;哦, 还有就是从初三开始, 受老哥的影响, 学习木吉他, 跟着孙云老师学, 他是当地的音协考级的考官之一吧, 一直学到高三吧. 我在高三的时候还抽空考了个全国六级民谣吉他.&lt;/li&gt;
+&lt;li&gt;恩, 然后开始说说高中.&lt;/li&gt;
+&lt;li&gt;我的高中生活刚开始比较老老实实, 但是, 其实很能疯玩的哈. 先说当地的三个重点高中是各具特色的: 排第一的二中是生源最好, 每年总是有各种高考状元, 于是学生里有钱的和关系户多; 排第二的是师大附中, 是管得最不严的高中, 各种搞对象啦狗血的事情发生过的哈, 男女生打扮等都不管的; 排第三好的就是我上的一中.&lt;/li&gt;
+&lt;li&gt;号称是全市最严格的公立中学, 也是百年老校. 男生一律平头, 校门口都有老师一个一个的查, 手插入头发里要是由头发从指头间多出来了, 就会拿剪子当场给你剪掉. 女生一律马尾或短发. 学校里还有专门的管学生教训学生的部门……&lt;/li&gt;
+&lt;li&gt;虽然学校很严格, 但是学校的团组织活动啥的还挺开放的, 可以申请成立各种社团做活动. 我和另一个好哥们就成立滑板社, 开始每天在下午的近40分钟的大活动期间在校园里耍……&lt;/li&gt;
+&lt;li&gt;关于滑板嘛, 差不多是高一前就和市里的各种人开始耍, 到大学后就暂时放下了. 有时候还参加社会上的商演活动, 比如給移动促销穿着贴满广告的t恤什么的, 还邀请过社会上的pro来学校表演什么的.&lt;/li&gt;
+&lt;li&gt;关于学业. 高一时候又一次不经意的连续三次数学考了第一名, 其实我那成绩并不高, 好像120左右的样子, 但是可能当时的题目很难, 所以全班的平均成绩还不到60…… 而对我来说这一切发生的还是很意外的, 第一次有人给我透露成绩的时候, 我还以为开玩笑呢, 因为我当时以为自己考的很糟糕, 随便答答而已.&lt;/li&gt;
+&lt;li&gt;至于后来嘛, 就是我的总成绩总是不怎么样, 还是严重偏科. 整个高一高二都是语文倒数第一第二名, 而数学却是正数的第一第二, 于是我就像传奇一般的人物成了偏科严重的最典型例子传唱了好久……&lt;/li&gt;
+&lt;li&gt;到了高三, 由于数学上得到当时物理班主任的信任, 成为了其课代表吧. 于是我就更是变本加厉, 从来不写作业, 但是数学成绩依旧是名列前茅的. 高三时候还专门在课余时间给同班同学们讲题, 讲我怎么理解公式, 如何记忆公式啥的, 还有人称呼数学小王子……&lt;/li&gt;
+&lt;li&gt;尽管听上去很风光, 但是我想也应该是因果注定的吧, 我高考的时候就是栽倒在数学上了, 这个后说.&lt;/li&gt;
+&lt;li&gt;高三是个特别不一样的一年, 因为论以前的总成绩排名的话, 我基本上是倒数的, 还不一定能不能上二本的总成绩….由此可见, 我其他的几门科目都不怎么样.&lt;/li&gt;
+&lt;li&gt;但是高三刚一开始, 按照班主任的话说, 就是我变成了一个黑马, 在10月份的一次全市大统考里考到了全班第二.&lt;/li&gt;
+&lt;li&gt;这是有原因的. 从高一开始我就有空就买求学杂志, 爱看里面的牛人故事.&lt;/li&gt;
+&lt;li&gt;有一位叫高皓的清华学生就写了一篇名为&lt;a href=&quot;http://wctttty.blog.163.com/blog/static/3753490220087844253136/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;strong&gt;始于高中:与自己赛跑的成长竞赛&lt;/strong&gt;&lt;/a&gt;的文章, 里面详细的讲了如何时间管理等等细节的学习方法, 非常好.&lt;/li&gt;
+&lt;li&gt;最重要的是, 在我高三那一年初, 高皓出了一本书就叫&lt;a href=&quot;http://wctttty.blog.163.com/blog/static/3753490220087844253136/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;strong&gt;通向大学之路&lt;/strong&gt;&lt;/a&gt;, 里面也讲了这个文章的内容, 我当时就买了下来看完了, 并且照做了而已.&lt;/li&gt;
+&lt;li&gt;除此以外, 我觉得还有一个重要的因素就是当时物理班主任在我总成绩那么糟糕的情况下, 依旧给我鼓励, 看重我, 还在班上表扬我说未来我肯定成绩没问题之类的… 对此, 我现在都还很感动, 我觉得这就是给人以希望.&lt;/li&gt;
+&lt;li&gt;关于学业说得差不多了, 最后高考成绩还是考砸了, 因为数学考了打出生以来最低的成绩, 好像是90几的样子. 我记得我当时面对题目感觉自己一下子没有了灵感, 空了好几个大题没做… 哎, 人生第一个大的教训啊, 没有好好潜下心准备果然最后会栽跟头.&lt;/li&gt;
+&lt;li&gt;而其他英语和语文都超常发挥了. 语文以前从来都是不及格的, 压根就没及格过几次, 而高考这次全都100多分, 达到平均一本线的样子, 这都要归功于高考前一个月的时候, 一位管内蒙语文阅卷组的组长给我辅导了几次, 人家虽然是特级教师, 但是他却只教我如何答题… 如何得分…(此处就省略几百字吧) &lt;/li&gt;
+&lt;li&gt;反正, 最后总分是悲剧地差4分达到一本线, 到了重庆工商.&lt;/li&gt;
+&lt;li&gt;学业算是说完了, 情感上嘛还算很清净的吧.&lt;/li&gt;
+&lt;li&gt;初中对一个很漂亮家里很有钱, 说话清新脱俗且学习又好的女生比较有好感吧, 但是我也就是自己想想而已, 初中毕业人家去了二中后到现在就从来没见过, 我也没打听过. 后来听说她现在从说话和打扮上等等也是各种浮华浮躁, 抱有着普遍主流的价值观, 我对此也就只好案子感慨岁月真是一把杀猪刀啊!…… (计划下一篇日志就说说这个事情:&lt;a href=&quot;http://iphysresearch.github.io/blog/2016/02/11/challenge-DAY7/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;XX&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;高中其实也很简单, 只是有一个好像有点暧昧的别班女生, 其实很少说话很少见面, 但是偶尔遇见了似乎感觉有什么事情发生了, 而我出于一种相当早熟的责任感, 觉得现在任何感情和冲动都是会毁自己的前程, 所以我就总是冷冰冰的吧, 能躲则躲, 能避开就避开. 直到高考一考完, 我就写了一封信, 这是我头一次写信, 丑丑的字, 写清楚了那几年究竟发生了什么, 究竟我是怎么想的. 最后就互相有联系方式而已, 是朋友而已.&lt;/li&gt;
+&lt;li&gt;至于现在是已经彻底没有联系方式了, 主要是因为大二时候前女友看到了人人上她的留言啥的, 然后闹事发脾气, 然后就彻底失去这个朋友了, 其实我根本就没想过由任何进一步发展的想法. 哎……多说无益了.&lt;/li&gt;
+&lt;li&gt;哦, 整个差不多就这样了吧.&lt;/li&gt;
+&lt;li&gt;我的叛逆都放在玩上了, 又是吉他又是滑板的, 太闹腾, 高三有些时候还下午一下课就逃掉晚自习奔向琴行录音呢.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;Subtitle-参与’死磕8天-每天五百字’挑战-DAY-6&quot;&gt;&lt;a href=&quot;#Subtitle-参与’死磕8天-每天五百字’挑战-DAY-6&quot; class=&quot;headerlink&quot; title=&quot;Subtitle: 参与’死磕8天,每天五百字’挑战-DAY 6&quot;&gt;&lt;/a&gt;Subtitle: 参与’死磕8天,每天五百字’挑战-DAY 6&lt;/h4&gt;&lt;p&gt;今天白天就逛了逛安徽的宏村, 以下就贴图为证好了. 唯一值得遗憾的就是人太多….本来挺原汁原味的村落现在商业化太重…还有点污染…&lt;br&gt;&lt;div class=&quot;group-picture&quot;&gt;&lt;div class=&quot;group-picture-container&quot;&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;div class=&quot;group-picture-column&quot;  style=&quot;width: 50%;&quot;&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/img%2Fchallenge-DAY678c6e289jw1f0udom6w19j20vl0hsaes.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-column&quot;  style=&quot;width: 50%;&quot;&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/img%2Fchallenge-DAY678c6e289jw1f0udode32oj20vl0hs433.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;div class=&quot;group-picture-column&quot;  style=&quot;width: 100%;&quot;&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/img%2Fchallenge-DAY678c6e289jw1f0udof5hfnj20pg0hs41n.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;大概三点多左右的样子, 我们一家人开始启程直奔武汉, 大概晚上22点多才抵达. 此期间在微信上和朋友聊得很嗨, 还互相分享了自己的中学时代, 以下就是我在微信中发的内容了.&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Life, Insights and Random Musings" scheme="http://yoursite.com/blog/categories/Life-Insights-and-Random-Musings/"/>
+    
+      <category term="Travel" scheme="http://yoursite.com/blog/categories/Life-Insights-and-Random-Musings/Travel/"/>
+    
+    
+      <category term="多图的 | With pictures" scheme="http://yoursite.com/blog/tags/%E5%A4%9A%E5%9B%BE%E7%9A%84-With-pictures/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>大年初二之杭州+黄山市</title>
+    <link href="http://yoursite.com/blog/2016/02/09/challenge-DAY5/"/>
+    <id>http://yoursite.com/blog/2016/02/09/challenge-DAY5/</id>
+    <published>2016-02-09T14:58:13.000Z</published>
+    <updated>2016-02-19T10:00:17.477Z</updated>
+    
+    <content type="html">&lt;h4 id=&quot;Subtitle-参与’死磕8天-每天五百字’挑战-DAY-5&quot;&gt;&lt;a href=&quot;#Subtitle-参与’死磕8天-每天五百字’挑战-DAY-5&quot; class=&quot;headerlink&quot; title=&quot;Subtitle: 参与’死磕8天,每天五百字’挑战-DAY 5&quot;&gt;&lt;/a&gt;Subtitle: 参与’死磕8天,每天五百字’挑战-DAY 5&lt;/h4&gt;&lt;p&gt;今天上午走了走西湖的断桥和白堤, 中午吃了皇饭儿招牌的鱼头和叫花鸡. 路上那个人多的啊… 我这里就省略几百个字好了…&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/img%2Fchallenge-DAY578c6e289jw1f0t78ituc1j20qo1begye.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;这里打算先提一提吃饭的时候, 朋友圈里偶然间读到了一篇名为 &lt;a href=&quot;http://www.360doc.com/content/15/0406/23/5466618_461150909.shtml&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;strong&gt; 曾国藩:从30岁起,脱胎换骨 &lt;/strong&gt;&lt;/a&gt;的文章, 深有感触. 之前听过罗辑思维讲过曾国藩, 当时听完后就有一个很大的收货, 当时把感慨写在了自己的微博上: “一路听罗辑思维，讲到曾国藩的成功学最让人印象深刻。他仅对自己有相当严格的道德修养要求，但对别人却要&lt;strong&gt;懂得变通，要顺道而为，要留足面子&lt;/strong&gt;。” 而这篇文章看下来, 其实有另一个很大的体会, 同事也是文章作者所忽略的问题, 那就是曾国藩在其30岁前是一直有写日记以自省的习惯的. 我相信这件事请才是最重要的事情, 也是有后面生涯的脱胎换骨乃至成功一生的前提条件. 更多的就不论述了, 仅把思考的结论贴在这里好了.&lt;/p&gt;
+&lt;p&gt;再来下午我们就直奔浙江省博物馆(武林馆区)去参观了. 我们兄弟两到一个省市都爱逛当地的博物馆/美术馆/艺术馆/城市规划展览馆之类的地方, 因为这些很少有游客光顾的地方其实是官方版本的文化汇集地, 可以从其中可以快速了解到只有需要定居才能体会和了解的知识和文化. 浙江省博物馆的镇馆之宝是《富春山居图》(前段) , 遗憾的是展出的仅仅是其复制品….有些无语… 简单总结下的话, 那就是浙江这块地方从远古的新石器时代到近代, 从越人到江浙人家, 可谓是文化底蕴丰富, 牛人倍出啊! 羡慕…羡慕…&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/img%2Fchallenge-DAY578c6e289jw1f0t78lpt9ij20qo0zkwph.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/img%2Fchallenge-DAY578c6e289jw1f0t78orr5gj20zk0qogw1.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;大概还不到傍晚的时分, 我们开始启程大约3小时左右, 前往黄山市! 安顿好行李后, 前往’老街’逛荡觅食….&lt;br&gt;最后在一家大众点评上小有名气的’徽州之家’品尝了传说中的’臭鱼’, 天…. 从一进那个饭店的门, 就是一股臭气袭来. 招牌菜臭鳜鱼那个味道啊… 让人怎么说呢… 老哥认为这鱼的味道简直就是大粪啊… 我感觉挺像呕吐物…. 最后我还是觉得老妈的描述更接近些, 那就是臭鸡蛋味道, 臭还有些发酸…. 反正最后都主要被我打扫了. 但愿不会拉肚子, 期待还能有消食的效果吧. 回酒店的路上, 老妈又发挥出了吃货本色, 买了几罐当地非常好吃的酱菜.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/img%2Fchallenge-DAY59jv_2016-02-09_21-02-10123.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/img%2Fchallenge-DAY59jv_2016-02-09_21-41-13123.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/img%2Fchallenge-DAY59jv_2016-02-09_22-12-40123.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;最后想说的是, 这条’老街’很长, 也很有特色, 绝大部分建筑依旧是原汁原味的. 还有各种各样很有风格特点的小店坐落在这里, 居然有两家国际青年旅舍在这条街上. 这给我留下了很深的印象, 由此计划着, 啥时候看黄山市的机票特别便宜的时候(机场距离市区非常近), 我可以直接杀过来, 除了爬爬黄山, 还可以住在这条’老街’上过几天休闲的日子哈!~~~~&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;Subtitle-参与’死磕8天-每天五百字’挑战-DAY-5&quot;&gt;&lt;a href=&quot;#Subtitle-参与’死磕8天-每天五百字’挑战-DAY-5&quot; class=&quot;headerlink&quot; title=&quot;Subtitle: 参与’死磕8天,每天五百字’挑战-DAY 5&quot;&gt;&lt;/a&gt;Subtitle: 参与’死磕8天,每天五百字’挑战-DAY 5&lt;/h4&gt;&lt;p&gt;今天上午走了走西湖的断桥和白堤, 中午吃了皇饭儿招牌的鱼头和叫花鸡. 路上那个人多的啊… 我这里就省略几百个字好了…&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Life, Insights and Random Musings" scheme="http://yoursite.com/blog/categories/Life-Insights-and-Random-Musings/"/>
+    
+      <category term="Travel" scheme="http://yoursite.com/blog/categories/Life-Insights-and-Random-Musings/Travel/"/>
+    
+    
+      <category term="多图的 | With pictures" scheme="http://yoursite.com/blog/tags/%E5%A4%9A%E5%9B%BE%E7%9A%84-With-pictures/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>大年初一之乌镇和杭州</title>
+    <link href="http://yoursite.com/blog/2016/02/08/challenge-DAY4/"/>
+    <id>http://yoursite.com/blog/2016/02/08/challenge-DAY4/</id>
+    <published>2016-02-08T09:05:34.000Z</published>
+    <updated>2016-02-22T15:49:55.765Z</updated>
+    
+    <content type="html">&lt;h4 id=&quot;Subtitle-参与’死磕8天-每天五百字’挑战-DAY-４&quot;&gt;&lt;a href=&quot;#Subtitle-参与’死磕8天-每天五百字’挑战-DAY-４&quot; class=&quot;headerlink&quot; title=&quot;Subtitle: 参与’死磕8天,每天五百字’挑战-DAY ４&quot;&gt;&lt;/a&gt;Subtitle: 参与’死磕8天,每天五百字’挑战-DAY ４&lt;/h4&gt;&lt;p&gt;在大年初一这天中午折腾了一圈传说中所谓的长桌宴。不得不说，还是有些小失望的，价格是又贵又不好吃，所以吃的时候，纯粹图的就是热闹和新鲜。贴图几张以示到此一游吧。&lt;/p&gt;
+&lt;div class=&quot;group-picture&quot;&gt;&lt;div class=&quot;group-picture-container&quot;&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;div class=&quot;group-picture-column&quot; style=&quot;width: 50%;&quot;&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/img%2Fchallenge-DAY578c6e289gw1f0ruf5s2a9j21ts38wu13.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-column&quot; style=&quot;width: 50%;&quot;&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/img%2Fchallenge-DAY578c6e289gw1f0rudpzvh5j21t137lhdy.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;div class=&quot;group-picture-column&quot; style=&quot;width: 50%;&quot;&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/img%2Fchallenge-DAY578c6e289gw1f0ruglxqdpj22eo2eoe87.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-column&quot; style=&quot;width: 50%;&quot;&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/img%2Fchallenge-DAY578c6e289gw1f0ruhsv0rgj22eo2epe86.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;吃完饭就立马离开准备闪人离开景区了，因为景区里来的游客是越来越多，入口处渐渐开始出现了井喷的人流。。。。 随即，我们一路继续向南，奔向了素有天堂之城的杭州。&lt;/p&gt;
+&lt;p&gt;这里不得不多说一句，全季酒店真是％＄％＃＄％的贵啊，今晚住这么一晚，相当于我自己旅行可以住半个月了。。。。&lt;/p&gt;
+&lt;p&gt;晚上有我带领着逛南宋御街和河坊街，看老妈高兴的样子真的是感觉特别好，看来还是吃货是最容易满足的啊。而且，在我的大力推介下去’皇饭儿’饭店品尝。这百年老店是当年乾隆亲自赐题，一代名菜就是鱼头啊！不过，由于我们人少就只是点了东坡肉和其它简单的两个菜。那东坡人看似那个肥的啊，但是味道那是超级好吃啊！一点都不腻，还有点甜。去年7月份我在杭州开会的时候还吃过这个店里的西湖醋鱼和叫化鸡，那个味道好吃的啊，我去，没法说了。总之，除了经典的推荐菜以外，所有摆上来的没吃过的菜，都真的是很有自己的特色，都特别好吃。哎～ 不多说了。明天计划全家中午还要再去吃一次。。。。。&lt;/p&gt;
+&lt;p&gt;饭后，就是一直步行到西湖边上，夜游西湖了。不得不说，在如此淡雅脱俗的美景下漫步，真的是好羡慕生活在杭州的人啊。。。。&lt;br&gt;&lt;img src=&quot;&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;Subtitle-参与’死磕8天-每天五百字’挑战-DAY-４&quot;&gt;&lt;a href=&quot;#Subtitle-参与’死磕8天-每天五百字’挑战-DAY-４&quot; class=&quot;headerlink&quot; title=&quot;Subtitle: 参与’死磕8天,每天五百字’挑战-DAY ４&quot;&gt;&lt;/a&gt;Subtitle: 参与’死磕8天,每天五百字’挑战-DAY ４&lt;/h4&gt;&lt;p&gt;在大年初一这天中午折腾了一圈传说中所谓的长桌宴。不得不说，还是有些小失望的，价格是又贵又不好吃，所以吃的时候，纯粹图的就是热闹和新鲜。贴图几张以示到此一游吧。&lt;/p&gt;
+&lt;div class=&quot;group-picture&quot;&gt;&lt;div class=&quot;group-picture-container&quot;&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;div class=&quot;group-picture-column&quot;  style=&quot;width: 50%;&quot;&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/img%2Fchallenge-DAY578c6e289gw1f0ruf5s2a9j21ts38wu13.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-column&quot;  style=&quot;width: 50%;&quot;&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/img%2Fchallenge-DAY578c6e289gw1f0rudpzvh5j21t137lhdy.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;div class=&quot;group-picture-column&quot;  style=&quot;width: 50%;&quot;&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/img%2Fchallenge-DAY578c6e289gw1f0ruglxqdpj22eo2eoe87.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-column&quot;  style=&quot;width: 50%;&quot;&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/img%2Fchallenge-DAY578c6e289gw1f0ruhsv0rgj22eo2epe86.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;吃完饭就立马离开准备闪人离开景区了，因为景区里来的游客是越来越多，入口处渐渐开始出现了井喷的人流。。。。 随即，我们一路继续向南，奔向了素有天堂之城的杭州。&lt;/p&gt;
+&lt;p&gt;这里不得不多说一句，全季酒店真是％＄％＃＄％的贵啊，今晚住这么一晚，相当于我自己旅行可以住半个月了。。。。&lt;/p&gt;
+&lt;p&gt;晚上有我带领着逛南宋御街和河坊街，看老妈高兴的样子真的是感觉特别好，看来还是吃货是最容易满足的啊。而且，在我的大力推介下去’皇饭儿’饭店品尝。这百年老店是当年乾隆亲自赐题，一代名菜就是鱼头啊！不过，由于我们人少就只是点了东坡肉和其它简单的两个菜。那东坡人看似那个肥的啊，但是味道那是超级好吃啊！一点都不腻，还有点甜。去年7月份我在杭州开会的时候还吃过这个店里的西湖醋鱼和叫化鸡，那个味道好吃的啊，我去，没法说了。总之，除了经典的推荐菜以外，所有摆上来的没吃过的菜，都真的是很有自己的特色，都特别好吃。哎～ 不多说了。明天计划全家中午还要再去吃一次。。。。。&lt;/p&gt;
+&lt;p&gt;饭后，就是一直步行到西湖边上，夜游西湖了。不得不说，在如此淡雅脱俗的美景下漫步，真的是好羡慕生活在杭州的人啊。。。。&lt;br&gt;&lt;img src=&quot;&quot; alt=&quot;&quot;&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Life, Insights and Random Musings" scheme="http://yoursite.com/blog/categories/Life-Insights-and-Random-Musings/"/>
+    
+      <category term="Travel" scheme="http://yoursite.com/blog/categories/Life-Insights-and-Random-Musings/Travel/"/>
+    
+    
+      <category term="多图的 | With pictures" scheme="http://yoursite.com/blog/tags/%E5%A4%9A%E5%9B%BE%E7%9A%84-With-pictures/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>乌镇的除夕</title>
+    <link href="http://yoursite.com/blog/2016/02/07/challenge-DAY3/"/>
+    <id>http://yoursite.com/blog/2016/02/07/challenge-DAY3/</id>
+    <published>2016-02-07T15:45:34.000Z</published>
+    <updated>2016-02-22T15:53:35.431Z</updated>
+    
+    <content type="html">&lt;h4 id=&quot;Subtitle-参与’死磕8天-每天五百字’挑战-DAY-3&quot;&gt;&lt;a href=&quot;#Subtitle-参与’死磕8天-每天五百字’挑战-DAY-3&quot; class=&quot;headerlink&quot; title=&quot;Subtitle: 参与’死磕8天,每天五百字’挑战-DAY 3&quot;&gt;&lt;/a&gt;Subtitle: 参与’死磕8天,每天五百字’挑战-DAY 3&lt;/h4&gt;&lt;p&gt;其实本来计划今天不写东西了，就当是给群里的伙伴们发红包了。但是又一想要是偷懒一天的话，就会空出一个未完成的日志，看上去实在不好看，所以就还是多多少少写些感想吧。今晚一家四口人在一个酒店的房间里看着春晚，而我在一旁对着自己的电脑和朋友聊天耍。&lt;/p&gt;
+&lt;p&gt;下面贴几张今天拍得照片好了:&lt;br&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/img%2Fchallenge-DAY4challenge-DAY49jx_2016-02-07_11-45-13.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;div class=&quot;group-picture&quot;&gt;&lt;div class=&quot;group-picture-container&quot;&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;div class=&quot;group-picture-column&quot; style=&quot;width: 50%;&quot;&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/img%2Fchallenge-DAY49jx_2016-02-07_17-33-07.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-column&quot; style=&quot;width: 50%;&quot;&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/img%2Fchallenge-DAY49jx_2016-02-07_18-22-14.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;div class=&quot;group-picture-column&quot; style=&quot;width: 100%;&quot;&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/img%2Fchallenge-DAY49jx_2016-02-07_19-04-19.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;Subtitle-参与’死磕8天-每天五百字’挑战-DAY-3&quot;&gt;&lt;a href=&quot;#Subtitle-参与’死磕8天-每天五百字’挑战-DAY-3&quot; class=&quot;headerlink&quot; title=&quot;Subtitle: 参与’死磕8天,每天五百字’挑战-DAY
+    
+    </summary>
+    
+      <category term="Life, Insights and Random Musings" scheme="http://yoursite.com/blog/categories/Life-Insights-and-Random-Musings/"/>
+    
+      <category term="Travel" scheme="http://yoursite.com/blog/categories/Life-Insights-and-Random-Musings/Travel/"/>
+    
+    
+      <category term="多图的 | With pictures" scheme="http://yoursite.com/blog/tags/%E5%A4%9A%E5%9B%BE%E7%9A%84-With-pictures/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>追忆小人书＋清贫的科研？</title>
+    <link href="http://yoursite.com/blog/2016/02/06/challenge-DAY2/"/>
+    <id>http://yoursite.com/blog/2016/02/06/challenge-DAY2/</id>
+    <published>2016-02-06T09:10:56.000Z</published>
+    <updated>2016-02-20T10:07:37.050Z</updated>
+    
+    <content type="html">&lt;h4 id=&quot;Subtitle-参与’死磕8天-每天五百字’挑战-DAY-2&quot;&gt;&lt;a href=&quot;#Subtitle-参与’死磕8天-每天五百字’挑战-DAY-2&quot; class=&quot;headerlink&quot; title=&quot;Subtitle: 参与’死磕8天,每天五百字’挑战-DAY 2&quot;&gt;&lt;/a&gt;Subtitle: 参与’死磕8天,每天五百字’挑战-DAY 2&lt;/h4&gt;&lt;p&gt;今天和父母老哥在乌镇里逛荡了一天, 在晚上回客栈前一家人路过了一个专门卖小人书的小店. 虽然, 店里成套的小人书是上海人民美术出版社再版的. 不过, 在我和老哥的热情下, 一口气买了&amp;lt;红楼梦&amp;gt;, &amp;lt;中国成语故事&amp;gt;和&amp;lt;孙子兵法&amp;gt;三套吧, 花了大好几百的样子. 后两套是自己挑的, 对此比较情有独钟是有原因的, 这要从小时候的中学童年里一本中外优秀青少年名人连环画说起. 那是一本老哥从当时它的同学那里借来的书, 不过被我从头到尾在几年时间里, 翻了好多遍, 几百页的书封面都快翻烂的掉了, 可谓爱不释手啊. &lt;/p&gt;
+&lt;p&gt;我其实真正想说的是, 那是一本自认为非常影响我长大后看待事物和处事方式的连环画书. &lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;记得那书里列举了很多不同的中外名人从古代到现代数个讲述道理和励志的小故事. 绝大多数小故事至今都还记忆犹新. 比方说, 有个中国古代故事大概是说一个带着小孩刚改嫁的寡妇和继父又生了一个孩子, 于是这就是说这对相差6-7岁的同母异父兄弟的故事. 兄弟两个人, 哥哥总是收到继父的虐待和无视, 吃不饱饭衣不遮体的做着繁重的家务劳动, 而弟弟从小收到特别的照顾, 吃的好穿的好, 但是弟弟总是特别疼哥哥, 看到哥哥没有饭吃的时候, 就会把自己的吃的给哥哥吃. 被发现了的时候为了避免哥哥不被继父抽打的话, 弟弟就冲出来说’我替哥哥挨打’. 就这样, 大了以后, 这位兄弟成为了远近闻名的为人和善, 待人和蔼的好兄弟, 亲兄弟. 其实小人书嘛, 书里并没有说清楚弟弟心中是如何考虑的, 如何想这样的事情的. 但是我自己作为家里的亲弟弟, 也就自然而然也觉得兄弟之间像书中这样的关系才是应该有的兄弟关系, 才会是让人羡慕的兄弟关系, 于是这也就从小成为了我要达到的目标. 还有个故事, 我又记不清楚主人公的名字了. 大概是说一位清正廉明的宰相在朝廷官场上, 虽然为人正直, 可是也难免招人嫉恨, 于是在朝廷官员之间就开始流传关于这位德高望重的宰相的坏话. 有一位与之关系甚好的官员悄悄地向这位宰相透露说有人在其背后说他的坏话, 戳它的脊梁骨, 并且正当他要说始作俑者是谁的时候, 这位宰相立即打断了他, 说自己一点都不想知道这人是谁. 问及为何的时候, 宰相就说要是自己知道了名字的话, 就没法保证自己能够依旧平和的与其他所有官员相处, 也更没法平等的看待身边的人, 所以与其受此困扰, 还不如不要知道是谁. 故事就说这些吧. 其中的道理显然耐人寻味, 不过却让我非常记忆犹新, 也很大程度上影响了自己看待事物的方式, 例如: 不纠结究竟是谁在误会自己, 相信自己的人品的话, 就不妨相信时间会解释一切; 最后的考试成绩准确的分数我从来的就不太清, 就记得个大概….等等, 可能还有好些吧.&lt;/p&gt;
+&lt;p&gt;另一个事情, 值得说一句的就是, 我为何选择&amp;lt;孙子兵法&amp;gt;小人书吧. 从没读过当然是一个原因之一了, 还有一个很重要的道理就是我希望其中的用兵之计中所隐藏的逻辑道理, 可以启发我在科研探索中能更有创造力的解决问题吧. 还是不多说这个了. 其实自己也没啥发言权.&lt;/p&gt;
+&lt;p&gt;最后可以要说道的就是今天大嫂在朋友圈里分享知乎上的讨论: &lt;a href=&quot;https://www.zhihu.com/question/21413332&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;strong&gt;为什么大多数人都认为做科研就得忍受清贫的生活？&lt;/strong&gt;&lt;/a&gt; . 我就直接在这里贴我的理解了. 一句话说的话, 那就是我希望能够大大的提高科研人员的待遇, 诸如终身教职等方式吧. 为什么这么说呢? 那是因为做科研这个职业, 每天纠结温饱之类的生活问题的话, 学术创新一定是会大打折扣的. 这个工作根本就不是像普通的私企公司里工作的人一样什么的, 下班时间一到, 回家就什么都可以把一切都放下来, 都不去想, 尽管享受天伦之乐的生活即可. 要知道, 优秀的科研人员对于一个问题的思考是需要长时间在脑中咀嚼, 发酵酝酿的. 灵感是’灵光一现’的这种说法都是后知后觉的人所以为的, 其实真正的新idea和新思路的产生都是&lt;strong&gt;不知不觉&lt;/strong&gt;的, 它通常就来自于人们发呆中, 或在放松中思考等等, 这个过程可能发生在任何生活当中的一个细节. 但是这个机制的发生要是总是被太多生活的细枝末节占据的话, 诸如温饱问题, 家庭的生活质量, 职称如何评定, 子女教育问题等影响, 那么何谈什么科研人员的创新带动国家创新呢, 那简直就是意淫嘛. 在国外, 一个大学的教授基本上就是终身制的, 基本不用有任何其他顾虑, 尽管悠闲放松的天马行空的发挥想象力去科研就好了, 这种生活绝对是每个科研人员在刚入科研圈之初最向往的生活状态, 可惜国内的科研人员已经被惯性的沦落为就该过清贫的生活才正常. 最后说, 为何国内不少清贫的科研人员依旧有不错的成果呢? 答案就是人家很牛. 可以说是兴趣所致, 也可以说是有所弃就有所得. 但是, 这并不意味着科研人员就该清贫, 更不意味着清贫才能出成果, 这逻辑上就推不出来, 更是本末倒置啊…. 如果这个现状真的能彻底有所改变, 我相信会有更多科研优秀的牛人出现, 这是显而易见的.&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;Subtitle-参与’死磕8天-每天五百字’挑战-DAY-2&quot;&gt;&lt;a href=&quot;#Subtitle-参与’死磕8天-每天五百字’挑战-DAY-2&quot; class=&quot;headerlink&quot; title=&quot;Subtitle: 参与’死磕8天,每天五百字’挑战-DAY 2&quot;&gt;&lt;/a&gt;Subtitle: 参与’死磕8天,每天五百字’挑战-DAY 2&lt;/h4&gt;&lt;p&gt;今天和父母老哥在乌镇里逛荡了一天, 在晚上回客栈前一家人路过了一个专门卖小人书的小店. 虽然, 店里成套的小人书是上海人民美术出版社再版的. 不过, 在我和老哥的热情下, 一口气买了&amp;lt;红楼梦&amp;gt;, &amp;lt;中国成语故事&amp;gt;和&amp;lt;孙子兵法&amp;gt;三套吧, 花了大好几百的样子. 后两套是自己挑的, 对此比较情有独钟是有原因的, 这要从小时候的中学童年里一本中外优秀青少年名人连环画说起. 那是一本老哥从当时它的同学那里借来的书, 不过被我从头到尾在几年时间里, 翻了好多遍, 几百页的书封面都快翻烂的掉了, 可谓爱不释手啊. &lt;/p&gt;
+&lt;p&gt;我其实真正想说的是, 那是一本自认为非常影响我长大后看待事物和处事方式的连环画书. &lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Life, Insights and Random Musings" scheme="http://yoursite.com/blog/categories/Life-Insights-and-Random-Musings/"/>
+    
+      <category term="Travel" scheme="http://yoursite.com/blog/categories/Life-Insights-and-Random-Musings/Travel/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>浅谈何为旅游, 何为旅行</title>
+    <link href="http://yoursite.com/blog/2016/02/05/challenge-DAY1/"/>
+    <id>http://yoursite.com/blog/2016/02/05/challenge-DAY1/</id>
+    <published>2016-02-05T14:28:55.000Z</published>
+    <updated>2016-02-19T11:59:07.102Z</updated>
+    
+    <content type="html">&lt;h4 id=&quot;Subtitle-参与’死磕8天-每天五百字’挑战-DAY-1&quot;&gt;&lt;a href=&quot;#Subtitle-参与’死磕8天-每天五百字’挑战-DAY-1&quot; class=&quot;headerlink&quot; title=&quot;Subtitle: 参与’死磕8天,每天五百字’挑战-DAY 1&quot;&gt;&lt;/a&gt;Subtitle: 参与’死磕8天,每天五百字’挑战-DAY 1&lt;/h4&gt;&lt;p&gt;昨天在旅行的路上, 无意间看到了朋友圈里的’芥末’姑娘发的号召倡议:&lt;u&gt;从2016.2.5-2016.2.12之间8天的时间里, 每天一片500字以上的文字分享, 坚持8天, 中途不能退出, 每少一天扣除5元押金群内当天红包, 扣完为止&lt;/u&gt;. 显然, 我对此很有兴趣, 因为这可以很好的督促我能及时的写博客日志, 不能再向过去脑子有很多构思计划或者感想, 却总之拖延或发懒, 而导致一拖再拖或还要努力回忆总结出来. 不过, 不太合适宜的是, 前天刚好和父母老哥从天津出发一路向南开始自驾旅行了, 不得不要抽空去写感想. 虽然, 我可以很轻易的去每天写旅行流水账, 但我想还是算了, 这个旅行准确的说应该叫旅游, 主要是带着年龄渐大的父母出来过年凑热闹来的, 我还是追求自己的背包客旅行方式, 过程中其实始终是有一种精神追求在里面的. 废话就此不多说了, 总之开始今天谈论的主题.&lt;/p&gt;
+&lt;p&gt;码字到这里后, 我就发现已经有331个字了, 所以不得不感慨, 这个挑战还是简单了… 哇哈哈哈…贱贱的笑….&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;从动笔的时间来看, 显然我现在在一酒店里赶稿. 所以, 没有什么完整的探讨可以写. 就谈谈刚刚一家人吃饭的时候说起的事情吧.&lt;br&gt;老妈在差不多一个月前就想说, 趁着老哥和嫂子的孩子大概计划在今年生个小猴子出来, 那么明年过年就很可能会为了有了孙子或者孙女开始忙碌了, 自然地今年的过年长假就可能是最后一个长的旅行机会了, 所以就提议过年到外地旅行. 当然, 这没啥问题, 也可以理解. 不过老妈期待的旅行是一种感受….就是希望能在一个古镇啦, 或者古街啦什么的, 住上他个好几天, 小桥流水朴素民风的多好~ 恩, 经过老哥的精心安排在昨天南京住了一晚后, 今天就直接一路杀到乌镇过夜了. 那么, 这个过程当中父母就偶尔会有一些小感慨, 诸如哎呀, 虽然明天才到景区里面住呢, 不过刚到这里好像这个景致也没啥很特别的嘛…还以为人很多, 当地人都在做什么什么没见过的事情呢……&lt;/p&gt;
+&lt;p&gt;那么我啰嗦到这里, 其实就是想说老妈对于目标期待是处在一个比较模糊甚至是矛盾的状态下的. ‘我希望过年去一个有什么什么样感觉的地方’ 这个话就非常模糊, 就像是某妹子说我想要一个能给我什么什么感觉的男生一样, 这是不靠谱的一种计划. 这样很模糊的计划, 不仅很难真正的制定详细的计划以实现, 而且也会容易迷失, 进而容易自以为自得. 记得, 有篇文章讲起一个故事说某记者曾采访过一位美国的前财政部长, 好像是问其成功有何诀窍, 那么这个颇有名气和声望的前部长回答说: &lt;strong&gt;要有一个清晰明确尤其要具体的目标!&lt;/strong&gt;比方说你想未来能住到某山头上面的一个别墅里生活, 那么, 这就是一个模糊的目标, 你要是不非常具体的描述清楚, 那么就基本永远都不可能实现, 它也就永远也就是个想法, 是个梦想. 那么为了实现它, 你可能就需要做一个广泛而详尽的市场调查, 到底哪座山上的哪个房产哪个房将成为你的目标. 同时, 假定计划5年后要实现的话, 那么就计算好为了到时候有钱去买, 在此期间各种国家财务利率的变化, 以及可能政策变动的风险等等都要考虑到位, 进而就会分配计划到自己的每一年, 每个月, 甚至每天该如何实现, 那么自然地也就清楚你现在此时此刻该有怎么样的努力方向以及现在就该做些什么而为了这个梦想做准备. 那么, 如此以来, 实现这样的目标的概率就非常大了, 甚至会让你感觉到时候会事半功倍, 毫不费力的实现了它. &lt;/p&gt;
+&lt;p&gt;好吧, 总之好像扯远了. 简单地说, 老妈所念叨的理想旅游目的地, 由于没有自己的亲自调查和琢磨, 所以当自己真的身处其中后, 就会总是感觉和自己想象的不太一样. 那么, 难免的在这个旅行中会有一些各种各样异样的感受. 所以也可以理解的吧.&lt;/p&gt;
+&lt;p&gt;至于说为什么其实还挺矛盾呢. 这就必须谈及一下在我的概念里’旅游’和’旅行’的区别. 在老妈老爸看来, 旅游到了另一个异乡环境, 难免会和自己熟悉的家乡等环境做对比, 当然这很自然. 然而, 在南京的时候, 我们品尝了几家有名的当地秦淮特色菜肴, 父母们对于吃不惯的食物会报以不满, 会有一些不理解的想法, 诸如这的人口味怎么这么怪啊, 不是太淡太咸就是说有种异样的味道, 或者什么什么东西怎么可以这么烹饪啦啥的, 当然这也可以理解. 不过, 我说’可理解’并不等于’会支持’, 这不过意思就是说明白其中的原因而已. 我这么大了走南闯北到处认识也见识了不少人, 类似的旅游感慨也听惯了. 其实我想说, 要是你觉得自己在外地有任何不适应的地方, 那不是人家当地人的问题, 而是你自己的问题. 我也是个爱吃的了, 不过我并没有非常特别的喜好某种菜肴, 而是喜欢猎奇. 我在南京尝一口本地大排档里的本地美食的时候, 感觉一种没有接触过的异样味道从鼻子呼出, 但我并不会皱眉, 因为我觉得我呼出了一个’江苏’, 感觉自己切身体会到了本土民居的生活, 让自己变成或者假装成一个江苏人在这里品…. 这就是&lt;strong&gt;我认为的旅行方式, 是要为了体验, 是为了感受, 是为了得出思考的&lt;/strong&gt;. 老北京豆渣和卤煮火烧, 四川的折耳根, 兰州的牛肉面等等吧, 都是很好的通过美食来实现身心穿越的好机会嘛. 当然, 对于昆虫宴啥的我还是很难以接受的, 望理解, 要是我吃一点, 我恐怕一年都过不好了, 所以这是我的错. 那么, 带着旅行的心态来到乌镇这里的话, 我就是来看看吃吃凑热闹的. 古镇虽然都差不多, 我就乐观的对自己说来看看它是怎么被同化的. 饭菜吃不饱, 我就可以理解这就是为啥华东这边人们普遍都纤瘦苗条嘛. &lt;strong&gt;总之, 好与不好, 美与不美等这些评价都从来不是客观存在的, 它们总是主观的, 总是因不同人的体会而异的.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/img%2Fchallenge-DAY19k0_2016-02-04_21-02-33.jpg&quot; alt=&quot;南京夫子庙&quot;&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;Subtitle-参与’死磕8天-每天五百字’挑战-DAY-1&quot;&gt;&lt;a href=&quot;#Subtitle-参与’死磕8天-每天五百字’挑战-DAY-1&quot; class=&quot;headerlink&quot; title=&quot;Subtitle: 参与’死磕8天,每天五百字’挑战-DAY 1&quot;&gt;&lt;/a&gt;Subtitle: 参与’死磕8天,每天五百字’挑战-DAY 1&lt;/h4&gt;&lt;p&gt;昨天在旅行的路上, 无意间看到了朋友圈里的’芥末’姑娘发的号召倡议:&lt;u&gt;从2016.2.5-2016.2.12之间8天的时间里, 每天一片500字以上的文字分享, 坚持8天, 中途不能退出, 每少一天扣除5元押金群内当天红包, 扣完为止&lt;/u&gt;. 显然, 我对此很有兴趣, 因为这可以很好的督促我能及时的写博客日志, 不能再向过去脑子有很多构思计划或者感想, 却总之拖延或发懒, 而导致一拖再拖或还要努力回忆总结出来. 不过, 不太合适宜的是, 前天刚好和父母老哥从天津出发一路向南开始自驾旅行了, 不得不要抽空去写感想. 虽然, 我可以很轻易的去每天写旅行流水账, 但我想还是算了, 这个旅行准确的说应该叫旅游, 主要是带着年龄渐大的父母出来过年凑热闹来的, 我还是追求自己的背包客旅行方式, 过程中其实始终是有一种精神追求在里面的. 废话就此不多说了, 总之开始今天谈论的主题.&lt;/p&gt;
+&lt;p&gt;码字到这里后, 我就发现已经有331个字了, 所以不得不感慨, 这个挑战还是简单了… 哇哈哈哈…贱贱的笑….&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Life, Insights and Random Musings" scheme="http://yoursite.com/blog/categories/Life-Insights-and-Random-Musings/"/>
+    
+      <category term="Travel" scheme="http://yoursite.com/blog/categories/Life-Insights-and-Random-Musings/Travel/"/>
+    
+    
+      <category term="多图的 | With pictures" scheme="http://yoursite.com/blog/tags/%E5%A4%9A%E5%9B%BE%E7%9A%84-With-pictures/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2016新年自驾游</title>
+    <link href="http://yoursite.com/blog/2016/02/04/Family_travel/"/>
+    <id>http://yoursite.com/blog/2016/02/04/Family_travel/</id>
+    <published>2016-02-04T15:20:15.000Z</published>
+    <updated>2016-02-21T05:35:40.223Z</updated>
+    
+    <content type="html">&lt;h1 id=&quot;2016-2-4&quot;&gt;&lt;a href=&quot;#2016-2-4&quot; class=&quot;headerlink&quot; title=&quot;2016.2.4&quot;&gt;&lt;/a&gt;2016.2.4&lt;/h1&gt;&lt;p&gt;昨晚就已经抵达天津，暂时住在了老哥家里。今天一大早大概8点半就启程，开始一家四口人的过年旅行的一家之旅。&lt;br&gt;当然，看似风风光光，自由自在。其实，一路向南开上了京沪高速也没还定下来到底要到哪里过年…… 按照老妈的话说，不要爬山，不要太辛苦，腿脚也都不好了，就找个很有味道特色的古宅古镇逛上它几天，小桥流水的…多好…&lt;/p&gt;
+&lt;p&gt;那么之后的每天就基本上是一天一篇博文吧。内容当然算不上什么游记了， 其实就是有部分贴图和随想的小感悟而已， 微博上也发了些照片。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;过路费  23.78&lt;br&gt;海兴服务区加油 220&lt;br&gt;过路费    28.5&lt;br&gt;午饭    120&lt;br&gt;江苏界    180.5&lt;br&gt;南京收费站    140+20&lt;br&gt;晚饭    115&lt;br&gt;停车费    2&lt;br&gt;晚上住店    115&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;2016-2-5&quot;&gt;&lt;a href=&quot;#2016-2-5&quot; class=&quot;headerlink&quot; title=&quot;2016.2.5&quot;&gt;&lt;/a&gt;2016.2.5&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;http://iphysresearch.github.io/blog/2016/02/05/challenge-DAY1/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;浅谈何为旅游, 何为旅行&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;早餐    42.75&lt;br&gt;地铁    8&lt;br&gt;打车返回    16&lt;br&gt;午饭    267&lt;br&gt;蜡像馆    不详&lt;br&gt;加油费    270&lt;br&gt;过路费    40&lt;br&gt;晚上住店    202*2=404&lt;br&gt;餐费(寿司)    59&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;2016-2-6&quot;&gt;&lt;a href=&quot;#2016-2-6&quot; class=&quot;headerlink&quot; title=&quot;2016.2.6&quot;&gt;&lt;/a&gt;2016.2.6&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;http://iphysresearch.github.io/blog/2016/02/06/challenge-DAY2/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;追忆小人书＋清贫的科研？&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;早点    15&lt;em&gt;4=60&lt;br&gt;门票    120&lt;/em&gt;4=480&lt;br&gt;晚上住民宿房费    770&lt;br&gt;中午默默的家吃饭    250&lt;br&gt;买某糕    3&lt;br&gt;明晚住青旅费用    680&lt;br&gt;喝咖啡茶    110&lt;br&gt;吃某糕    3&lt;br&gt;晚饭砂锅    128&lt;br&gt;买小人书    180+98+138=278+138=416&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;2016-2-7&quot;&gt;&lt;a href=&quot;#2016-2-7&quot; class=&quot;headerlink&quot; title=&quot;2016.2.7&quot;&gt;&lt;/a&gt;2016.2.7&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;http://iphysresearch.github.io/blog/2016/02/07/challenge-DAY3/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;乌镇的除夕&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;中午民宿饭    163&lt;br&gt;晚饭西餐    395&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;2016-2-8&quot;&gt;&lt;a href=&quot;#2016-2-8&quot; class=&quot;headerlink&quot; title=&quot;2016.2.8&quot;&gt;&lt;/a&gt;2016.2.8&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;http://iphysresearch.github.io/blog/2016/02/08/challenge-DAY4/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;大年初一之乌镇和杭州&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;早饭粥    46+10=56&lt;br&gt;买蚕丝    318&lt;br&gt;中午长桌宴    298&lt;br&gt;晚上全季酒店    991&lt;br&gt;晚饭    107&lt;br&gt;超市购物    19.5&lt;br&gt;水果    47.9+23.9=71.8&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;2016-2-9&quot;&gt;&lt;a href=&quot;#2016-2-9&quot; class=&quot;headerlink&quot; title=&quot;2016.2.9&quot;&gt;&lt;/a&gt;2016.2.9&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;http://iphysresearch.github.io/blog/2016/02/09/challenge-DAY5/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;大年初二之杭州+黄山市&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;自助早饭    30&lt;br&gt;水两瓶        12&lt;br&gt;某糕    7&lt;br&gt;停车费    20&lt;br&gt;蜡像馆    85&lt;br&gt;中午饭    323&lt;br&gt;买桔子    16&lt;br&gt;停车费    10&lt;br&gt;如家住宿    351+346=697&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;2016-2-10&quot;&gt;&lt;a href=&quot;#2016-2-10&quot; class=&quot;headerlink&quot; title=&quot;2016.2.10&quot;&gt;&lt;/a&gt;2016.2.10&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;http://iphysresearch.github.io/blog/2016/02/10/challenge-DAY6/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;宏村+我的中学时代&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;早点粥    10&lt;br&gt;早点包子    6&lt;br&gt;早点饼    5&lt;br&gt;停车    5&lt;br&gt;加油    210&lt;br&gt;中午饭    270&lt;br&gt;喝东西买东西    40+20=60&lt;br&gt;全季酒店住宿    526&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;2016-2-11&quot;&gt;&lt;a href=&quot;#2016-2-11&quot; class=&quot;headerlink&quot; title=&quot;2016.2.11&quot;&gt;&lt;/a&gt;2016.2.11&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;http://iphysresearch.github.io/blog/2016/02/11/challenge-DAY7/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;游武汉+谈表白经历感&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;停车费    10&lt;br&gt;今晚全季酒店的住宿    420&lt;br&gt;草莓    15&lt;br&gt;中午武昌鱼    222&lt;br&gt;买玻璃杯等    106&lt;br&gt;藕片    6&lt;br&gt;停车    10&lt;br&gt;晚饭    153&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;2016-2-12&quot;&gt;&lt;a href=&quot;#2016-2-12&quot; class=&quot;headerlink&quot; title=&quot;2016.2.12&quot;&gt;&lt;/a&gt;2016.2.12&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;http://iphysresearch.github.io/blog/2016/02/12/challenge-DAY8/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;逛湖北省博物馆感+引力波？&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;早点    33&lt;br&gt;停车    10&lt;br&gt;水果    45&lt;br&gt;午饭    140&lt;br&gt;晚饭    30*4=120&lt;br&gt;莫泰住宿    不详&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;2016-2-13&quot;&gt;&lt;a href=&quot;#2016-2-13&quot; class=&quot;headerlink&quot; title=&quot;2016.2.13&quot;&gt;&lt;/a&gt;2016.2.13&lt;/h1&gt;&lt;p&gt;这天我们开车奔向了河南名城——开封。 多的也不说了， 我们逛了唯一值得逛得清明上河园和开封市博物馆。 照片真心就基本没有了。 我想以后也不会来开封了吧。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;早上牛骨汤    20&lt;em&gt;4=80&lt;br&gt;博物馆停车    5&lt;br&gt;中午吃饭    63&lt;br&gt;停车    5&lt;br&gt;清明上河园    100&lt;/em&gt;4=400&lt;br&gt;某糕    5&lt;br&gt;停车    5&lt;br&gt;Zoo咖啡    135&lt;br&gt;停车    5&lt;br&gt;晚餐    142&lt;br&gt;莫泰住宿    不详&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;2016-2-14&quot;&gt;&lt;a href=&quot;#2016-2-14&quot; class=&quot;headerlink&quot; title=&quot;2016.2.14&quot;&gt;&lt;/a&gt;2016.2.14&lt;/h1&gt;&lt;p&gt;这天白天一天就在高速上赶路， 还好天气很好而且一路可谓是一马平川， 下午18点左右就回到了天津。旅途就算是正式终于结束了。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;早餐    29&lt;br&gt;ETC过路费    104.5&lt;br&gt;红牛    20&lt;br&gt;ETC过路费    156.75&lt;br&gt;ETC过路费    14.25&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;2016-2-4&quot;&gt;&lt;a href=&quot;#2016-2-4&quot; class=&quot;headerlink&quot; title=&quot;2016.2.4&quot;&gt;&lt;/a&gt;2016.2.4&lt;/h1&gt;&lt;p&gt;昨晚就已经抵达天津，暂时住在了老哥家里。今天一大早大概8点半就启程，开始一家四口人的过年旅行
+    
+    </summary>
+    
+      <category term="Life, Insights and Random Musings" scheme="http://yoursite.com/blog/categories/Life-Insights-and-Random-Musings/"/>
+    
+      <category term="Travel" scheme="http://yoursite.com/blog/categories/Life-Insights-and-Random-Musings/Travel/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2015.12.31 爬巴谷多雪山</title>
+    <link href="http://yoursite.com/blog/2016/02/03/Hiking-for-baguduo/"/>
+    <id>http://yoursite.com/blog/2016/02/03/Hiking-for-baguduo/</id>
+    <published>2016-02-03T14:32:48.000Z</published>
+    <updated>2016-02-20T10:08:21.085Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/img%2FHiking-for-baguduo1451692487147_weibo.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;待更新… PS: 计划是3月初更新， 因为那个时候所有的照片才能整理出来， 全部上传成功吧。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/img%2FHiking-for-baguduo9kx_2016-01-02_09-18-05.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/img%2FHiking-for-baguduo9kx_2016-01-02_08-50-17.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/img%2FHiking-for-baguduo1451692487147_weibo.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;待更新… PS: 计划是3月初更新， 因为那个时候所有的照片才能整理出来， 全部上传成功吧。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Life, Insights and Random Musings" scheme="http://yoursite.com/blog/categories/Life-Insights-and-Random-Musings/"/>
+    
+      <category term="Travel" scheme="http://yoursite.com/blog/categories/Life-Insights-and-Random-Musings/Travel/"/>
+    
+    
+      <category term="多图的 | With pictures" scheme="http://yoursite.com/blog/tags/%E5%A4%9A%E5%9B%BE%E7%9A%84-With-pictures/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>论情为何物</title>
+    <link href="http://yoursite.com/blog/2015/10/15/what-is-love-the-greatest-emotion-of-all/"/>
+    <id>http://yoursite.com/blog/2015/10/15/what-is-love-the-greatest-emotion-of-all/</id>
+    <published>2015-10-14T16:00:00.000Z</published>
+    <updated>2016-02-21T15:34:17.128Z</updated>
+    
+    <content type="html">&lt;p&gt;(原帖于自己的旧博客:&lt;a href=&quot;http://herb-wang.lofter.com/post/956c6_88dada9&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;LOFTER&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;PS：由于此帖一发，收到了些对此不满朋友的反应，所以此帖就此不更新，也不再写，本来我写这个东西的时候也不是带着什么好心情写的。（2015.10.17）&lt;/p&gt;
+&lt;p&gt;这是一篇情感之我谈的日志。这么多年我从来不提这相关内容是因为我觉得日志用来写那些东西就是一种浪费，是多愁善感，是无痛呻吟，是矫情。这次集中起来写写吧。&lt;/p&gt;
+&lt;p&gt;首先贴上来是一些conceptions（观念or理解），这些对于了解一个女性的价值观，甚至是对于女人是否了解自己等是很有帮助的。每条的含义和用意都是不同的，可以理解为一条条简答题，要求快速的仔细思考后附上自己的评述。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;人生得意须尽欢&lt;/li&gt;
+&lt;li&gt;甄嬛传是相当好看带劲的，只看了一部分没时间精力看想看没机会看没意思的烂片&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;这个世界上总是会存在无论是相貌身高身材生理条件，还是拥有的物质金钱都要比你现在喜欢的人要好要有更优势的人存在。要注意的是这里并不仅仅是说表面的，同时这样的人也是内在的心地更善良，意志更坚定，未来更加有潜力。换句话简单的说，如果有时间机器可以检验，你会发现在未来你自己改和这样的人在一起生活会让你更有幸福感。那么，更重要的是这样的人不仅会存在，而在你之后的有生之年也一定会认识这样的人，会在你的人生轨迹中不定期的出现。或许那时的你已有男朋友，已有老公，甚至已有孩子。。。。当然，我不会问你如何选择，而是要问你如何看待的呢？会怎么办呢？想过这种问题吗？&lt;/li&gt;
+&lt;li&gt;钥匙手机零钱等小物件经常会忘记放在了哪里，尤其是找自己手机的时候，曾有过需要别人帮忙给自己打电话至少有两次以上。&lt;/li&gt;
+&lt;li&gt;有些时候发觉自己和身边的女生越来越聊不到一起，似乎是跟不上她们的时代一样，她们似乎更懂何为时尚，何为娱乐圈，为何泡沫剧好看，为何韩剧也很好看。&lt;/li&gt;
+&lt;li&gt;没和父母真正吵过架至少20岁以后就没向他们乱发过脾气&lt;/li&gt;
+&lt;li&gt;很喜欢去撒娇的感觉&lt;/li&gt;
+&lt;li&gt;有过不由自主的去撒娇，事后意识到自己的表现后会觉得不可思议，觉得自己失态了，以后该注意了呢。&lt;/li&gt;
+&lt;li&gt;走进书店会有种莫名的心情激动，莫名的受其吸引，想要多待会，好想买本书再走。&lt;/li&gt;
+&lt;li&gt;走进文具店有种莫名的心情激动。。。。同上。。。。。&lt;/li&gt;
+&lt;li&gt;下雨天自己给自己打伞的时候，常常因没注意到身边的路人或者别的什么东西，而让自己的雨伞边缘总碰上去，碰到别人。&lt;/li&gt;
+&lt;li&gt;若非要女人与男人去做一个比较的话，相信对绝大部分人而言，就相同的事情来说女人一般是要心胸狭隘些，要更虚荣些。&lt;/li&gt;
+&lt;li&gt;谁都知道在花言巧语面前要保持理智理性，那么你能举几个例子说说什么样的话是花言巧语，自己听到过怎样的花言巧语呢？&lt;/li&gt;
+&lt;li&gt;究竟何为爱呢？毫无疑问，你有和别人不同的理解。&lt;/li&gt;
+&lt;li&gt;有时候挺讨厌男人的，比如有时候有些男的自己以为和自己关系好关系近，就没有考虑到我的感受而说些或者做些让我很不舒服的话或者行为。&lt;/li&gt;
+&lt;li&gt;感觉自己要是真的要找个男朋友的话，我相信肯定是很容易的。&lt;/li&gt;
+&lt;li&gt;你能说出爱、婚烟和性三者的区别和联系吗？&lt;/li&gt;
+&lt;li&gt;每天不给自己自拍一张就浑身不舒服；一定把自己拍得美美哒才行，不然朋友圈里点赞的就少了。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;（还有好些conception可以列出来，待续吧）&lt;/p&gt;
+&lt;p&gt;先从历史上来说，自高中毕业后开始升入大学，我心中不由自主地暗地里就有种异样的观念，那是一种对女生的不屑和无感。尽管我中学人缘还不错，女生朋友甚至推心置腹给你吐诉心声的也不少，但我很难说是究竟是因为太了解女生的一些小心思了，还是由于当时对社会大多女生浮躁心境的不满。总之，我刻意的让自己和所有女生保持距离，淡漠其关系。记得当时大一时候还有人问我是不是同性恋。。。。额。。~ 对此我只能说，当时的自己确实有点极端吧，不过这种观念也绝对不是没有道理，下文应该会提到。&lt;/p&gt;
+&lt;p&gt;之后发生的事情对于认识我的人来说就已都知晓的了。那就是从大二起至研一，有一段长达四年的感情经历。这听上去似乎有些不可思议，对于我保有这种观念的人，这是怎么会发生的呢？。。。恩，我也觉得很不可思议。大一时候还信誓旦旦的决心大学四年一定要单身状态的度过下来，让自己从内在得到充分的升华。现在回来想，恐怕也是思考不成熟，想法单纯了吧。在当时看来我对于表现成熟稳重，有自己的想法的独立智慧女性有一种自然的着迷。要知道，这在如今的社会背景和校园环境下是很少见很难得的，而当时我认识的女生里也很少就那么一两个吧，心中的好奇也就自然升起吧。·······（此处省略几百个字吧）。。至于大学阶段后来的三年，人生似乎除了自己的事业梦想外，生活方面感觉就已经不是自己的了。因为，太多的决定和考虑都需要两个人判断和决定的。我较早的预料到以后的生活就会如此，正如电磁学的老师说的她婚后的生活是有很多她当初是想象不到的，什么鸡毛蒜皮和锅碗瓢盆的，只要接受和适应再加上坚持才能把日子风平浪静的过下去，所以我还能处之淡然吧。另外，女人的善变让我变得害怕和神经过敏。我也算是彻底知晓了永恒与信任不是一回事，女生在你面前表现出来的只是一面，但从表面判断显然太可笑了，什么成熟稳重，独立智慧，~~ 哈哈。。。也真是太可笑了。这就是唯实践与时间才能出真知的事情，偏要想提前预言出来一样，确实可笑啊。。。其实在我大学期间的时候就有人问我，大学究竟该不该谈恋爱，我会毫不犹豫的回答：不该。这个答案即使我现在也没有变过。原因很简单，因为这就好比是一对毛还没长全的小屁孩无忧无虑的讨论各自未来职业规划一样，在衣食无忧的理想状态下怎么可能考虑到人间疾苦。外面世界都不了解，还谈什么世界观呢？当一切尘埃落定后，回归本土的我才发现自己是个相当守信守诺言的人。不管当初怎样年少猖狂，有一两个对她许下的诺言自己是一定要守住的，当然显然这个目前也只有自己一直记得，毕竟自己当时没想清楚是不会信誓旦旦的说出来的嘛~~~~&lt;/p&gt;
+&lt;p&gt;过去的一页就翻过去好了，现在就需要把握住自己20-30岁的后五年就对了。若博士能如期顺利毕业的话，那就是我29了吧应该。恩，要是更顺利一些的话，就希望能继续深造吧。没法，就业压力大。尽量去个没多少人认识我的城市重新生活，要是能出国就更好了，若能移民就更更好了，即使不做科研都行。。。。&lt;/p&gt;
+&lt;p&gt;不得不说，如今我认识的所有女性朋友里，几乎99%都不太清楚自己想要什么，或者知道自己正在做什么，再或者在这个有限的生命里了解自己现在该做什么。显然，我有必要进一步做一些说明，不然就会被千夫指了。正如上面那一条条conception，有一些其实就是来自某些女生的心理活动。表面上就是倾向于随大流，大多数别人做什么，我就做什么；大多数别人想什么，我也就想什么；大多数别人以后做什么，我也就跟着做什么，基本没有真正考虑过这一切对于自己而言究竟是为了什么。比方说，高校入学到了入党的时候，那申请者可谓趋之若鹜。当然我不是说那是绝对的不好，只是想问究竟有多少人真的考虑过为何自己要申请入党吗？你可知晓这个事情对你个人未来有可能会有的利与弊？又有多少是那么多人报名我也不能落后的从众或者心理？显然，拿入党申请说事仅仅是一个小小的例子，这个例子可以换成太多的其他事情。接下来就是要扣一下题了。我不幸的听说过太多在感情上也从众或者乱来的例子。什么寝室里其他几个闺蜜都脱单了，我自己也不能落后啊，于是迅速解决个后也开始夜不归宿了；按照自己心里的感觉标准把认识的男生排个序，然后按顺序一个一个挨个的追求和接近他直至成功；在校园或者朋友圈之类的公开环境里秀自己的幸福感，有人点赞或者赞叹幸福的话心里会有莫大的满足感；当和自己的另一半甜蜜的走过，看到另外不认识的一对男女迎面走来的时候会不由自主的关注两件事情：一个是那个女的穿的如何，妆又如何等，另一件事情就是看男的“成色”如何，相比自己的伴侣自己是否是更幸福的呢，甚至还有直接“电击疗法”他来验证自己是否还姿色依旧。。。。。还有太多狗血和汗颜的事情，就不说了。那么对于一个男生而言，我发觉人们第一眼看过去的都自然是只有女方，身边的男性角色直接忽略掉先。。。。。&lt;/p&gt;
+&lt;p&gt;上面已经提到的“幸福”二字，其实是我故意留到后文才谈的。因为何为幸福感，幸福的定义又为何往往都是因人而异的，因情况还不同的。不少朋友在美食面前说自己有幸福感；要是裤兜里有塞了不少现金也有幸福感，即使这些钱是公款；自己的男朋友比闺蜜们拥有的更帅更优秀，居然也会有幸福感；探寻更优质的性福生活也是寻找幸福的一部分；自拍出自己美美的照片发到朋友圈之类的地方，就算是没人回复点赞也有幸福感，因为知道肯定会有人看到的。。。。。哦。。可怜的“幸福”二字被用烂了。我当然不是想要提醒别人应该好好去查查字典里是怎么定义“幸福”的，因为在我看来，仅仅用满足感来描写是远远不够的。这样定义的幸福是相对的，世俗的，肤浅的。唯有和你个人的价值相联系起来才可能成为绝对的，公认的，深刻的，是可以在你个人心底会永恒的幸福。我也开始学克里希那穆提的风格，就是说话绕弯子多例子，但是就是不用文字直接挑明，一定要听者自己感受自己发现真谛。（PS：显然自己功力还不行，可以说道的例子不多，慢慢培养吧）&lt;/p&gt;
+&lt;p&gt;以前不是一个人的时候，自诩是非常淡定的。从不主动和任何女性同学朋友联系，甚至也从不在学校里和任何其他女生有任何眼神接触（除非看上去让我讨厌的人或者是过于丑了。。。。）。而如今，即使是一个人了，在号称是北京城除了北影外另一个头号美女如云的高校里，我现依旧是如此我行我素，和所有路过的女生尽可能保持距离，尽可能不认识任何不相干的女生。千万不要觉得这种想法变态，当你是不刻意的自然的表达你自己的生活和习性的时候，你会觉得这种生活状态会让你非常舒服放松，会轻松百倍的。（这个话显然是对男生和女生都说的）&lt;/p&gt;
+&lt;p&gt;有时候和一些女生有过较深入的交流后会发觉，男女之间互相的有些理解和观念也会掉入“你以为你以为的是你以为的”的误区。&lt;/p&gt;
+&lt;p&gt;待续。。。。 时间太晚了，改日接着写。这个日志暂时发布可见，改日可能会删掉重新开贴。&lt;/p&gt;
+&lt;p&gt;PS：写的思路太乱，也懒得花时间去整理和总结这些矫情的事情，所以欢迎断章取义。&lt;/p&gt;
+&lt;p&gt;PS：（2015.12.27）哦~ 我自己肯定没想到会在成都的四川省图书馆刚开业之际，在这个新馆里写这些废话。这几天也真是纠结，不禁的似乎把原有的观念逐渐演变成了对感情失去了信心。以前以为女人的心思很容易猜到，她们的一举一动都能了解到其是要暗示什么，于是变得自以为是的以为了解女人。可是，近日却变得不明所以了，是有一些最近的人和事情，让人想不明白，不明白背后到底是怎么样的人，不明白背后事情到底发生了什么。但是有如此多的感慨，还是因为过去的事情。知道的越多，越发现自己是多么的可笑。听来的越多，也越发现自己是多么的幼稚。勇敢的面对过去？天~ 做不到。。。太难了！就好比有人昨天狠狠地给你了一巴掌，你今天还就当啥事都没有么？&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;(原帖于自己的旧博客:&lt;a href=&quot;http://herb-wang.lofter.com/post/956c6_88dada9&quot;&gt;LOFTER&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;PS：由于此帖一发，收到了些对此不满朋友的反应，所以此帖就此不更新，也不再写，本来我写这个东西的时候也不是带着什么好心情写的。（2015.10.17）&lt;/p&gt;
+&lt;p&gt;这是一篇情感之我谈的日志。这么多年我从来不提这相关内容是因为我觉得日志用来写那些东西就是一种浪费，是多愁善感，是无痛呻吟，是矫情。这次集中起来写写吧。&lt;/p&gt;
+&lt;p&gt;首先贴上来是一些conceptions（观念or理解），这些对于了解一个女性的价值观，甚至是对于女人是否了解自己等是很有帮助的。每条的含义和用意都是不同的，可以理解为一条条简答题，要求快速的仔细思考后附上自己的评述。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;人生得意须尽欢&lt;/li&gt;
+&lt;li&gt;甄嬛传是相当好看带劲的，只看了一部分没时间精力看想看没机会看没意思的烂片
+    
+    </summary>
+    
+      <category term="Life, Insights and Random Musings" scheme="http://yoursite.com/blog/categories/Life-Insights-and-Random-Musings/"/>
+    
+      <category term="Random Musings" scheme="http://yoursite.com/blog/categories/Life-Insights-and-Random-Musings/Random-Musings/"/>
+    
+    
+      <category term="待续中 | To be continued" scheme="http://yoursite.com/blog/tags/%E5%BE%85%E7%BB%AD%E4%B8%AD-To-be-continued/"/>
+    
+  </entry>
+  
+</feed>
