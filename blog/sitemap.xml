@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/blog/websitelog/index.html</loc>
+    
+    <lastmod>2016-02-26T12:05:27.047Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/blog/2016/02/26/Graduate-Courses-QFT-in-Curved-Spacetime/</loc>
     
     <lastmod>2016-02-26T08:13:06.526Z</lastmod>
@@ -40,13 +47,6 @@
     <loc>http://yoursite.com/blog/guestbook/index.html</loc>
     
     <lastmod>2016-02-23T02:18:18.502Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/blog/websitelog/index.html</loc>
-    
-    <lastmod>2016-02-22T16:15:56.417Z</lastmod>
     
   </url>
   
