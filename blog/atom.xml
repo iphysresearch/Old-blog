@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/blog/"/>
-  <updated>2016-02-26T08:13:06.526Z</updated>
+  <updated>2016-02-27T14:44:30.137Z</updated>
   <id>http://yoursite.com/blog/</id>
   
   <author>
@@ -14,6 +14,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kouji Nakamura&#39;s Cosmological Perturbation Theory</title>
+    <link href="http://yoursite.com/blog/2016/02/27/Nakamura-s-CPT/"/>
+    <id>http://yoursite.com/blog/2016/02/27/Nakamura-s-CPT/</id>
+    <published>2016-02-27T13:37:03.000Z</published>
+    <updated>2016-02-27T14:44:30.137Z</updated>
+    
+    <content type="html">&lt;p&gt;未来这个内容，应该放到work网页里，而不是blog里。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Nakamura, Kouji. 2007. “&lt;strong&gt;Second-Order Gauge Invariant Cosmological Perturbation Theory: — Einstein Equations in Terms of Gauge Invariant Variables —.&lt;/strong&gt;” Progress of Theoretical Physics 117 (1): 17–74.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;Summary-and-discussion&quot;&gt;&lt;a href=&quot;#Summary-and-discussion&quot; class=&quot;headerlink&quot; title=&quot;Summary and discussion&quot;&gt;&lt;/a&gt;Summary and discussion&lt;/h1&gt;&lt;p&gt;综上所述，我们已经 confirmed 在 KN2003 和 KN2005 中的二阶微扰理论的一般形式是可以适用于 cosmological perturbation theory。我们已经 shown 在 KN2003 中寻找 higher-order gauge invariant variables 的方法在 cosmological perturbation 中可行的。该方法中一个关键的 assumption 就是假定我们已经了解了将 first-order metric perturbation 分解为 gauge&lt;br&gt;invariant 和 variant parts 的 procedure。特别值得一提的是，为了能将该方法应用到higher-order perturbations，我们就需要找到在 first-order metric perturbation 中的 gauge variant vector field $X^a$ （其定义为 $h&lt;em&gt;{ab}=:\mathscr{H}&lt;/em&gt;{ab}+\mathscr{L}&lt;em&gt;Xg&lt;/em&gt;{ab}$）。正如 &amp;amp;4.1 中所说的，the vector field $X^a$ is found by restricting the domain of the perturbations to the space of functions in which the Green functions $\Delta^{-1}$, $(\Delta + 2K)^{-1}$, and $(\Delta + 3K)^{-1}$ can be defined, where $\Delta$ and $K$ are the Laplacian associated with the metric $\gamma_{ij}$ and the curvature constant of the maximally symmetric three-space, respectively. 作为一个结果，我们发现关于 first-order metric perturbation 的 gauge invariant variables, 其正如文献^1[^2][^3]中所讨论过的。由此产生的 gauge invariant metric perturbation 与由 longitudinal gauge (the Newtonian gauge) 描述的 metric perturbation 有 same form。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;未来这个内容，应该放到work网页里，而不是blog里。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Nakamura, Kouji. 2007. “&lt;strong&gt;Second-Order Gauge Invariant Cosmological Perturbation T
+    
+    </summary>
+    
+      <category term="Research notes" scheme="http://yoursite.com/blog/categories/Research-notes/"/>
+    
+      <category term="Extraction" scheme="http://yoursite.com/blog/categories/Research-notes/Extraction/"/>
+    
+    
+      <category term="待续中 | To be continued" scheme="http://yoursite.com/blog/tags/%E5%BE%85%E7%BB%AD%E4%B8%AD-To-be-continued/"/>
+    
+  </entry>
   
   <entry>
     <title>Graduate Courses - QFT in Curved Spacetime</title>
@@ -929,33 +960,6 @@
     
       <category term="Travel" scheme="http://yoursite.com/blog/categories/Life-Insights-and-Random-Musings/Travel/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>2015.12.31 爬巴谷多雪山</title>
-    <link href="http://yoursite.com/blog/2016/02/03/Hiking-for-baguduo/"/>
-    <id>http://yoursite.com/blog/2016/02/03/Hiking-for-baguduo/</id>
-    <published>2016-02-03T14:32:48.000Z</published>
-    <updated>2016-02-20T10:08:21.085Z</updated>
-    
-    <content type="html">&lt;p&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/img%2FHiking-for-baguduo1451692487147_weibo.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;待更新… PS: 计划是3月初更新， 因为那个时候所有的照片才能整理出来， 全部上传成功吧。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/img%2FHiking-for-baguduo9kx_2016-01-02_09-18-05.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/img%2FHiking-for-baguduo9kx_2016-01-02_08-50-17.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;http://7xpdgh.com1.z0.glb.clouddn.com/img%2FHiking-for-baguduo1451692487147_weibo.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;待更新… PS: 计划是3月初更新， 因为那个时候所有的照片才能整理出来， 全部上传成功吧。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="Life, Insights and Random Musings" scheme="http://yoursite.com/blog/categories/Life-Insights-and-Random-Musings/"/>
-    
-      <category term="Travel" scheme="http://yoursite.com/blog/categories/Life-Insights-and-Random-Musings/Travel/"/>
-    
-    
-      <category term="多图的 | With pictures" scheme="http://yoursite.com/blog/tags/%E5%A4%9A%E5%9B%BE%E7%9A%84-With-pictures/"/>
     
   </entry>
   
