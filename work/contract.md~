@@ -1,5 +1,13 @@
 title: 合约
 date: 2016-02-20 20:08:43
+categories:   # 文章分类目录，参数可省略
+  - Life, Insights and Random Musings
+#   - 随笔(causerie)
+#   - 瞬间
+tags:   # 文章标签，参数可省略
+#  - hexo学习
+#  - 随笔(causerie)
+#   - blog # 个数不限，单个可直接跟在tags后面
 ---
 
 1. 互相的希望：
