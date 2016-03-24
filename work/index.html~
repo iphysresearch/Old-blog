@@ -1,18 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
+              <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=windows-1252">
+        <meta name="GENERATOR" content="Mozilla/4.04 [en] (X11; I; Linux 2.0.33 i686) [Netscape]">
+              <title>Herb's Work Place</title>
+              </head>
 
-<head>
-<meta http-equiv="Content-Language" content="zh-cn">
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>这是我的网页</title>
-<meta name="keywords" content="这是我的网页">
-<meta name="description" content="这是我的网页">
-</head>
+  <body style=" background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);" alink="#000099" link="#000099" vlink="#990099">
+                <h2> Herb</h2>
+                <hr>
+    <table style=" width: 100%; height: 250px; text-align: left; margin-left: auto; margin-right: auto;">
+      <tbody>
+        <tr>
+          <td>
+            <dl>
+              <dt> <a href="http://physics.bnu.edu.cn/">Department
+                  of Physics</a>&nbsp;</dt>
+              <dt> <a href="http://www.bnu.edu.cn/">Beijing Normal University</a>&nbsp;</dt>
+              <dt> No. 19, XinJieKouWai St., HaiDian District, &nbsp;</dt>
+              <dt> Beijing 100875, P. R. China&nbsp;</dt>
+            </dl>
+          </td>
+          <td>
+            <dl>
+              <dt> email:&nbsp; <a href="mailto:hewang@mail.bnu.edu.cn ">hewang[AT]mail.bnu.edu.cn</a>&nbsp;</dt>
+              <dt> Office: A303 Science & Technology BM&nbsp;</dt>
+              <dt> Phone: (010)-***-****&nbsp;</dt>
+              <dt> Fax: (010)-***-****&nbsp;</dt>
+            </dl>
+          </td>
+          <td style=" vertical-align: top;"><img style=" width: 860px;  height: 135px;" alt=""
+              src="http://physics.bnu.edu.cn/images/home_logo.jpg"></td>
+        </tr>
+      </tbody>
+    </table> 
+    <center><h2>Our website is under construction...</h2></center>
+    <hr>
+    <h3>About Me</h3>
+    I'm currently a ....&nbsp; At various times, I've
+    also ....&nbsp; Now I am&nbsp; setting up and ....&nbsp; My current main project is ....<br>
+    <br>
+    My academic background....&nbsp; I've been at 
+    <br>
+    <span style="font-weight: bold;">
+    <br>
+    </span>
+    <h3><span style="font-weight: bold;">Teaching</span></h3>
 
-<body bgcolor="#808080">
+    <h5><span style="font-weight: bold;"></span>Current course:</h5>
 
-<div style="position: absolute; width: 450px; height: 550px; z-index: 1; left: 400px; top: 60px; padding-left: 60px; padding-right: 60px; padding-top: 90px; padding-bottom: 60px; background-color: #FFFFFF" id="layer1">
-<p align="center"><b>这是我的XXX页</b></p>
+    <p><!-- 
+    <a href="http://www.math.columbia.edu/%7Ewoit/LieGroups-2016">Mathematics  G4344: Lie Groups and Representations (Spring 2016)</a>注释内容 -->
+        QFT in Curved Spacetime</p>
 
-</body>
+        Quantum Field Theory      (<a href="QFT_Hong_Lv.pdf">My Notes</a>)</p>
+         
+		<p> 
+                    <p><!-- 
+    <a href="http://www.math.columbia.edu/%7Ewoit/LieGroups-2016">Mathematics  G4344: Lie Groups and Representations (Spring 2016)</a>注释内容 -->
+        Topics on Theory of Gravitation</p>
+                            <p><!-- 
+    <a href="http://www.math.columbia.edu/%7Ewoit/LieGroups-2016">Mathematics  G4344: Lie Groups and Representations (Spring 2016)</a>注释内容 -->
+        String Theory and Supergravity</p>
+    <p>
+    <a href="http://app.blcu.edu.cn/ielts/16mar.htm">IELTS</a> </p>
+    <h5>Older courses:</h5>
+    <p><!-- <a href="http://www.math.columbia.edu/%7Ewoit/CalculusII.html">Mathematics V1102: Calculus II</a></p>
+注释内容 -->
+    <br>
 
+    <h3>Research</h3> (Research Notes:<a href="Gauges.pdf">Gauges</a>) <br><br>
+    My general area of research interest is the.....&nbsp; Recently I've been working more specifically on
+    understanding .....<br>
+   
+    <h3>Blog<span style="font-weight: bold;"></span></h3>
+   <!--  <span style="font-weight: bold;"></span>Since 2004 I've maintained
+    an active blog called <a
+      href="http://www.math.columbia.edu/%7Ewoit/wordpress">Not Even
+      Wrong</a>, which deals with topics in physics and
+    mathematics.&nbsp; At the end of 2011 it had 13,378 subscribers at
+    Google Reader.&nbsp; It now contains over 1000 postings that may be
+    of some sort of interest.<br>注释内容 -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <big><big><span style="font-weight: bold;"></span></big></big><br>
+    <br>
+  </body>
 </html>
