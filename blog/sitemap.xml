@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/blog/2016/04/02/2016-4-The-nock-Great-Wall/</loc>
+    
+    <lastmod>2016-04-04T08:46:59.792Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/blog/websitelog/index.html</loc>
+    
+    <lastmod>2016-04-04T08:25:17.826Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/blog/2016/03/27/Introspection/</loc>
+    
+    <lastmod>2016-04-04T08:14:30.472Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/blog/2014/08/19/Movie-Cinema-Paradiso/</loc>
     
     <lastmod>2016-03-26T12:53:08.616Z</lastmod>
@@ -201,13 +222,6 @@
     <loc>http://yoursite.com/blog/2016/02/28/how-to-study-with-peace-of-mind/</loc>
     
     <lastmod>2016-02-28T15:54:19.242Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/blog/websitelog/index.html</loc>
-    
-    <lastmod>2016-02-27T14:50:05.065Z</lastmod>
     
   </url>
   
